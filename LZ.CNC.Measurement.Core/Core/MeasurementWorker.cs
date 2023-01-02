@@ -15058,7 +15058,7 @@ namespace LZ.CNC.Measurement.Core
                                     _IsleftsmWorking = false;
                                     FlagTear1 = false;
                                     FlagTear1Have = false;
-                                    OnTear1MsgArrived("停止");
+                                   // OnTear1MsgArrived("停止");
                                 }
                                 WaitMilliSec(500);
                                 Step_LeftSM = 0;
