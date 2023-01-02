@@ -38,7 +38,7 @@ namespace LZ.CNC.Measurement.Core
 
         static MeasurementStatistics()
         {
-            _Instance = null;
+          //  _Instance = null;
             _GroupInstance = null;
         }
 
