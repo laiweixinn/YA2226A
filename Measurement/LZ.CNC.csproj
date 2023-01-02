@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A0EC9F0-04B5-4ADD-A82C-6BD23BD06371}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LZ.CNC</RootNamespace>
+    <AssemblyName>LZ.CNC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LZ.CNC.Measurement.Forms.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DY.CNC.Base">
+      <HintPath>..\LZ.CNC.Measurement.Core\bin\Debug\DY.CNC.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.CNC.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LZ.CNC.Measurement.Core\bin\Debug\DY.CNC.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.CNC.LeadShine.LTDMC.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DY.CNC.LeadShine.LTDMC.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.CNC.LeadShine.LTDMC.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DY.CNC.LeadShine.LTDMC.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DY.Core\bin\Debug\DY.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="halcondotnet">
+      <HintPath>..\..\LMIDll\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SciVisionLib, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.SciVisionLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ.CNC.KeyBoard">
+      <HintPath>..\LZ.CNC.KeyBoard\bin\Debug\LZ.CNC.KeyBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ.CNC.User">
+      <HintPath>..\LZ.CNC.UserLevel\obj\Debug\LZ.CNC.User.dll</HintPath>
+    </Reference>
+    <Reference Include="NetWork">
+      <HintPath>..\NetWork\bin\Debug\NetWork.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrDeviceInspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrDeviceInspection.Designer.cs">
+      <DependentUpon>FrDeviceInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOINCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOINCtrl.Designer.cs">
+      <DependentUpon>IOINCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOInIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOInIn.Designer.cs">
+      <DependentUpon>IOInIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\lbl_Status.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\lbl_Status.Designer.cs">
+      <DependentUpon>lbl_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\RealChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\RealChart.Designer.cs">
+      <DependentUpon>RealChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\AlarmDisplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\AlarmDisplayForm.designer.cs">
+      <DependentUpon>AlarmDisplayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\DataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\DataForm.Designer.cs">
+      <DependentUpon>DataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmCapacity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmCapacity.Designer.cs">
+      <DependentUpon>FrmCapacity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrPause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrPause.Designer.cs">
+      <DependentUpon>FrPause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\Alarm_IOPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\Alarm_IOPanel.Designer.cs">
+      <DependentUpon>Alarm_IOPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisCardPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisCardPanel.Designer.cs">
+      <DependentUpon>AxisCardPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisCardPanelB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisCardPanelB.Designer.cs">
+      <DependentUpon>AxisCardPanelB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisCardPanelC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisCardPanelC.Designer.cs">
+      <DependentUpon>AxisCardPanelC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisDebug.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisDebug.Designer.cs">
+      <DependentUpon>AxisDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisMovePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisMovePanel.Designer.cs">
+      <DependentUpon>AxisMovePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisMovePanelEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisMovePanelEx.Designer.cs">
+      <DependentUpon>AxisMovePanelEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\btn_iostate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\btn_iostate.Designer.cs">
+      <DependentUpon>btn_iostate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardAIOSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardAIOSet.Designer.cs">
+      <DependentUpon>CardAIOSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardBIOSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardBIOSet.Designer.cs">
+      <DependentUpon>CardBIOSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardCIOSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardCIOSet.Designer.cs">
+      <DependentUpon>CardCIOSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardDIOSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardDIOSet.Designer.cs">
+      <DependentUpon>CardDIOSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardModulA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardModulA.Designer.cs">
+      <DependentUpon>CardModulA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardModulB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardModulB.Designer.cs">
+      <DependentUpon>CardModulB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardModulC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CardModulC.Designer.cs">
+      <DependentUpon>CardModulC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CtrlSM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CtrlSM.Designer.cs">
+      <DependentUpon>CtrlSM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CtrlSMStation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\CtrlSMStation.Designer.cs">
+      <DependentUpon>CtrlSMStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOCylinder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOCylinder.Designer.cs">
+      <DependentUpon>IOCylinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOlcyCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOlcyCtrl.Designer.cs">
+      <DependentUpon>IOlcyCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOOutCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOOutCtrl.Designer.cs">
+      <DependentUpon>IOOutCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\VacuumCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\VacuumCtrl.Designer.cs">
+      <DependentUpon>VacuumCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrAuto.Designer.cs">
+      <DependentUpon>FrAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrDebug.Designer.cs">
+      <DependentUpon>FrDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrMain.Designer.cs">
+      <DependentUpon>FrMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmIO.Designer.cs">
+      <DependentUpon>FrmIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisDebugXYZ.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisDebugXYZ.Designer.cs">
+      <DependentUpon>AxisDebugXYZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisDebugXYZZU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisDebugXYZZU.Designer.cs">
+      <DependentUpon>AxisDebugXYZZU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisPositionListener.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisPositionListener.Designer.cs">
+      <DependentUpon>AxisPositionListener.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisSetPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisSetPanel.Designer.cs">
+      <DependentUpon>AxisSetPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\OffsetPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\OffsetPanel.Designer.cs">
+      <DependentUpon>OffsetPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\StatisticDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\StatisticDataPanel.Designer.cs">
+      <DependentUpon>StatisticDataPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\DetectStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\DetectStatus.Designer.cs">
+      <DependentUpon>DetectStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOSetPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOSetPanel.Designer.cs">
+      <DependentUpon>IOSetPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\XYZOffSetPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\XYZOffSetPanel.Designer.cs">
+      <DependentUpon>XYZOffSetPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\XYZPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\XYZPanel.Designer.cs">
+      <DependentUpon>XYZPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\XYZUVPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\XYZUVPanel.Designer.cs">
+      <DependentUpon>XYZUVPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.PageUC\BasePageUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.PageUC\CapacityUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.PageUC\CapacityUC.Designer.cs">
+      <DependentUpon>CapacityUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\AlarmForm.Designer.cs">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\CapacityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\CapacityForm.Designer.cs">
+      <DependentUpon>CapacityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrMsg.Designer.cs">
+      <DependentUpon>FrMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmSplashScreen.Designer.cs">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrValcunmMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrValcunmMsg.Designer.cs">
+      <DependentUpon>FrValcunmMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\GoHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\GoHomeForm.Designer.cs">
+      <DependentUpon>GoHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FrmSet.Designer.cs">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\NewFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\NewFile.Designer.cs">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\SplashScreen.cs" />
+    <Compile Include="Measurement.Forms\StatisticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\StatisticForm.Designer.cs">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\StatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\StatisticsForm.Designer.cs">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\VisionFailProc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\VisionFailProc.Designer.cs">
+      <DependentUpon>VisionFailProc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\TabForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisStatePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\AxisStatePanel.Designer.cs">
+      <DependentUpon>AxisStatePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOStatusPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms.Controls\IOStatusPanel.Designer.cs">
+      <DependentUpon>IOStatusPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.Forms\FileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measurement.Forms\FileForm.Designer.cs">
+      <DependentUpon>FileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrDeviceInspection.resx">
+      <DependentUpon>FrDeviceInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOINCtrl.resx">
+      <DependentUpon>IOINCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOInIn.resx">
+      <DependentUpon>IOInIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\RealChart.resx">
+      <DependentUpon>RealChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\AlarmDisplayForm.resx">
+      <DependentUpon>AlarmDisplayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\DataForm.resx">
+      <DependentUpon>DataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrmCapacity.resx">
+      <DependentUpon>FrmCapacity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrPause.resx">
+      <DependentUpon>FrPause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\Alarm_IOPanel.resx">
+      <DependentUpon>Alarm_IOPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisCardPanel.resx">
+      <DependentUpon>AxisCardPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisCardPanelB.resx">
+      <DependentUpon>AxisCardPanelB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisCardPanelC.resx">
+      <DependentUpon>AxisCardPanelC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisDebug.resx">
+      <DependentUpon>AxisDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisMovePanel.resx">
+      <DependentUpon>AxisMovePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisMovePanelEx.resx">
+      <DependentUpon>AxisMovePanelEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\btn_iostate.resx">
+      <DependentUpon>btn_iostate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardAIOSet.resx">
+      <DependentUpon>CardAIOSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardBIOSet.resx">
+      <DependentUpon>CardBIOSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardCIOSet.resx">
+      <DependentUpon>CardCIOSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardDIOSet.resx">
+      <DependentUpon>CardDIOSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardModulA.resx">
+      <DependentUpon>CardModulA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardModulB.resx">
+      <DependentUpon>CardModulB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CardModulC.resx">
+      <DependentUpon>CardModulC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CtrlSM.resx">
+      <DependentUpon>CtrlSM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\CtrlSMStation.resx">
+      <DependentUpon>CtrlSMStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOCylinder.resx">
+      <DependentUpon>IOCylinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOlcyCtrl.resx">
+      <DependentUpon>IOlcyCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOOutCtrl.resx">
+      <DependentUpon>IOOutCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\VacuumCtrl.resx">
+      <DependentUpon>VacuumCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrAuto.resx">
+      <DependentUpon>FrAuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrDebug.resx">
+      <DependentUpon>FrDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrMain.resx">
+      <DependentUpon>FrMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrmIO.resx">
+      <DependentUpon>FrmIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisDebugXYZ.resx">
+      <DependentUpon>AxisDebugXYZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisDebugXYZZU.resx">
+      <DependentUpon>AxisDebugXYZZU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisPositionListener.resx">
+      <DependentUpon>AxisPositionListener.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisSetPanel.resx">
+      <DependentUpon>AxisSetPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\OffsetPanel.resx">
+      <DependentUpon>OffsetPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\StatisticDataPanel.resx">
+      <DependentUpon>StatisticDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\DetectStatus.resx">
+      <DependentUpon>DetectStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOSetPanel.resx">
+      <DependentUpon>IOSetPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\XYZOffSetPanel.resx">
+      <DependentUpon>XYZOffSetPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\XYZPanel.resx">
+      <DependentUpon>XYZPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\XYZUVPanel.resx">
+      <DependentUpon>XYZUVPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.PageUC\CapacityUC.resx">
+      <DependentUpon>CapacityUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\AlarmForm.resx">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\CapacityForm.resx">
+      <DependentUpon>CapacityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrMsg.resx">
+      <DependentUpon>FrMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrmSplashScreen.resx">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrValcunmMsg.resx">
+      <DependentUpon>FrValcunmMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\GoHomeForm.resx">
+      <DependentUpon>GoHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FrmSet.resx">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\NewFile.resx">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\StatisticForm.resx">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\StatisticsForm.resx">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\VisionFailProc.resx">
+      <DependentUpon>VisionFailProc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\AxisStatePanel.resx">
+      <DependentUpon>AxisStatePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms.Controls\IOStatusPanel.resx">
+      <DependentUpon>IOStatusPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement.Forms\FileForm.resx">
+      <DependentUpon>FileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Measurement.Forms\TabForm.resx">
+      <DependentUpon>TabForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\print32.png" />
+    <None Include="Resources\00j58PaICI79_1024.png" />
+    <None Include="Resources\Left.ico" />
+    <None Include="Resources\Right.ico" />
+    <None Include="Resources\startup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LZ.CNC.Measurement.Core\LZ.CNC.Measurement.csproj">
+      <Project>{a9558eda-5c42-4bc3-9ae1-dfd63f0a719c}</Project>
+      <Name>LZ.CNC.Measurement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LZ.CNC.Measurement.Forms.Controls\LZ.CNC.Measurement.Forms.Controls.csproj">
+      <Project>{33b71488-52d1-477a-9a94-d5ef2406c90b}</Project>
+      <Name>LZ.CNC.Measurement.Forms.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LZ.CNC.Measurement.Forms\LZ.CNC.Measurement.Forms.csproj">
+      <Project>{7f5f5ab9-2a26-46b3-bd30-bfec94128f3d}</Project>
+      <Name>LZ.CNC.Measurement.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LZ.CNC.UserLevel\LZ.CNC.UserLevel.csproj">
+      <Project>{e0064ab4-1639-4d33-b062-9044b76a9919}</Project>
+      <Name>LZ.CNC.UserLevel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
