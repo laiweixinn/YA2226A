@@ -921,7 +921,7 @@
             this.ctab_product.HeadSelectedBorderColor = System.Drawing.SystemColors.Control;
             this.ctab_product.ItemSize = new System.Drawing.Size(200, 200);
             this.ctab_product.Location = new System.Drawing.Point(1, 15);
-            this.ctab_product.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ctab_product.Margin = new System.Windows.Forms.Padding(4);
             this.ctab_product.Multiline = true;
             this.ctab_product.Name = "ctab_product";
             this.ctab_product.SelectedIndex = 0;
@@ -933,9 +933,9 @@
             this.tabPage19.Controls.Add(this.cTabControl7);
             this.tabPage19.Controls.Add(this.btn_savefunction);
             this.tabPage19.Location = new System.Drawing.Point(204, 4);
-            this.tabPage19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage19.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage19.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage19.Size = new System.Drawing.Size(1691, 880);
             this.tabPage19.TabIndex = 3;
             this.tabPage19.Text = "功能参数";
@@ -954,7 +954,7 @@
             this.cTabControl7.HeadSelectedBorderColor = System.Drawing.Color.Transparent;
             this.cTabControl7.ItemSize = new System.Drawing.Size(200, 32);
             this.cTabControl7.Location = new System.Drawing.Point(8, 8);
-            this.cTabControl7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cTabControl7.Margin = new System.Windows.Forms.Padding(4);
             this.cTabControl7.Multiline = true;
             this.cTabControl7.Name = "cTabControl7";
             this.cTabControl7.SelectedIndex = 0;
@@ -965,9 +965,9 @@
             // 
             this.tabPage28.Controls.Add(this.groupBoxEx38);
             this.tabPage28.Location = new System.Drawing.Point(4, 36);
-            this.tabPage28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage28.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage28.Name = "tabPage28";
-            this.tabPage28.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage28.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage28.Size = new System.Drawing.Size(1447, 771);
             this.tabPage28.TabIndex = 0;
             this.tabPage28.Text = "功能设置";
@@ -1042,9 +1042,9 @@
             this.groupBoxEx38.Controls.Add(this.chk_leftsm_enable);
             this.groupBoxEx38.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBoxEx38.Location = new System.Drawing.Point(8, 8);
-            this.groupBoxEx38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxEx38.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxEx38.Name = "groupBoxEx38";
-            this.groupBoxEx38.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxEx38.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxEx38.Size = new System.Drawing.Size(1457, 732);
             this.groupBoxEx38.TabIndex = 23;
             this.groupBoxEx38.TabStop = false;
@@ -1054,7 +1054,7 @@
             this.chk_RightUDCylinder.FalseTip = "关闭";
             this.chk_RightUDCylinder.IsCkecked = false;
             this.chk_RightUDCylinder.Location = new System.Drawing.Point(1107, 515);
-            this.chk_RightUDCylinder.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_RightUDCylinder.Margin = new System.Windows.Forms.Padding(5);
             this.chk_RightUDCylinder.Name = "chk_RightUDCylinder";
             this.chk_RightUDCylinder.Size = new System.Drawing.Size(303, 36);
             this.chk_RightUDCylinder.TabIndex = 83;
@@ -1066,7 +1066,7 @@
             this.chk_MidSMUDCylinder.FalseTip = "关闭";
             this.chk_MidSMUDCylinder.IsCkecked = false;
             this.chk_MidSMUDCylinder.Location = new System.Drawing.Point(1107, 484);
-            this.chk_MidSMUDCylinder.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_MidSMUDCylinder.Margin = new System.Windows.Forms.Padding(5);
             this.chk_MidSMUDCylinder.Name = "chk_MidSMUDCylinder";
             this.chk_MidSMUDCylinder.Size = new System.Drawing.Size(303, 36);
             this.chk_MidSMUDCylinder.TabIndex = 82;
@@ -1078,7 +1078,7 @@
             this.chk_LeftSMUDCylinder.FalseTip = "关闭";
             this.chk_LeftSMUDCylinder.IsCkecked = false;
             this.chk_LeftSMUDCylinder.Location = new System.Drawing.Point(1107, 454);
-            this.chk_LeftSMUDCylinder.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_LeftSMUDCylinder.Margin = new System.Windows.Forms.Padding(5);
             this.chk_LeftSMUDCylinder.Name = "chk_LeftSMUDCylinder";
             this.chk_LeftSMUDCylinder.Size = new System.Drawing.Size(303, 36);
             this.chk_LeftSMUDCylinder.TabIndex = 81;
@@ -1090,7 +1090,7 @@
             this.chk_IsLoadZCylinder.FalseTip = "伺服";
             this.chk_IsLoadZCylinder.IsCkecked = false;
             this.chk_IsLoadZCylinder.Location = new System.Drawing.Point(752, 296);
-            this.chk_IsLoadZCylinder.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_IsLoadZCylinder.Margin = new System.Windows.Forms.Padding(5);
             this.chk_IsLoadZCylinder.Name = "chk_IsLoadZCylinder";
             this.chk_IsLoadZCylinder.Size = new System.Drawing.Size(307, 36);
             this.chk_IsLoadZCylinder.TabIndex = 69;
@@ -1102,7 +1102,7 @@
             this.chk_IsTransferZCylinder.FalseTip = "伺服";
             this.chk_IsTransferZCylinder.IsCkecked = false;
             this.chk_IsTransferZCylinder.Location = new System.Drawing.Point(752, 329);
-            this.chk_IsTransferZCylinder.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_IsTransferZCylinder.Margin = new System.Windows.Forms.Padding(5);
             this.chk_IsTransferZCylinder.Name = "chk_IsTransferZCylinder";
             this.chk_IsTransferZCylinder.Size = new System.Drawing.Size(307, 36);
             this.chk_IsTransferZCylinder.TabIndex = 71;
@@ -1126,7 +1126,7 @@
             this.chk_LoadYAxis.FalseTip = "屏蔽";
             this.chk_LoadYAxis.IsCkecked = false;
             this.chk_LoadYAxis.Location = new System.Drawing.Point(540, 692);
-            this.chk_LoadYAxis.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_LoadYAxis.Margin = new System.Windows.Forms.Padding(5);
             this.chk_LoadYAxis.Name = "chk_LoadYAxis";
             this.chk_LoadYAxis.Size = new System.Drawing.Size(307, 36);
             this.chk_LoadYAxis.TabIndex = 74;
@@ -1151,7 +1151,7 @@
             this.chk_PreTearFilmPress.FalseTip = "否";
             this.chk_PreTearFilmPress.IsCkecked = false;
             this.chk_PreTearFilmPress.Location = new System.Drawing.Point(1107, 421);
-            this.chk_PreTearFilmPress.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_PreTearFilmPress.Margin = new System.Windows.Forms.Padding(5);
             this.chk_PreTearFilmPress.Name = "chk_PreTearFilmPress";
             this.chk_PreTearFilmPress.Size = new System.Drawing.Size(307, 36);
             this.chk_PreTearFilmPress.TabIndex = 73;
@@ -1163,7 +1163,7 @@
             this.chk_DischargeZHome.FalseTip = "关闭";
             this.chk_DischargeZHome.IsCkecked = false;
             this.chk_DischargeZHome.Location = new System.Drawing.Point(752, 392);
-            this.chk_DischargeZHome.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_DischargeZHome.Margin = new System.Windows.Forms.Padding(5);
             this.chk_DischargeZHome.Name = "chk_DischargeZHome";
             this.chk_DischargeZHome.Size = new System.Drawing.Size(307, 36);
             this.chk_DischargeZHome.TabIndex = 72;
@@ -1175,7 +1175,7 @@
             this.chk_TearFilmCloseVac.FalseTip = "否";
             this.chk_TearFilmCloseVac.IsCkecked = false;
             this.chk_TearFilmCloseVac.Location = new System.Drawing.Point(1107, 388);
-            this.chk_TearFilmCloseVac.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_TearFilmCloseVac.Margin = new System.Windows.Forms.Padding(5);
             this.chk_TearFilmCloseVac.Name = "chk_TearFilmCloseVac";
             this.chk_TearFilmCloseVac.Size = new System.Drawing.Size(307, 36);
             this.chk_TearFilmCloseVac.TabIndex = 70;
@@ -1187,7 +1187,7 @@
             this.chk_BendXYHomeEnable.FalseTip = "关闭";
             this.chk_BendXYHomeEnable.IsCkecked = false;
             this.chk_BendXYHomeEnable.Location = new System.Drawing.Point(752, 358);
-            this.chk_BendXYHomeEnable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_BendXYHomeEnable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_BendXYHomeEnable.Name = "chk_BendXYHomeEnable";
             this.chk_BendXYHomeEnable.Size = new System.Drawing.Size(307, 36);
             this.chk_BendXYHomeEnable.TabIndex = 68;
@@ -1199,7 +1199,7 @@
             this.chk_NGLineButton.FalseTip = "隐藏";
             this.chk_NGLineButton.IsCkecked = false;
             this.chk_NGLineButton.Location = new System.Drawing.Point(32, 368);
-            this.chk_NGLineButton.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_NGLineButton.Margin = new System.Windows.Forms.Padding(5);
             this.chk_NGLineButton.Name = "chk_NGLineButton";
             this.chk_NGLineButton.Size = new System.Drawing.Size(307, 36);
             this.chk_NGLineButton.TabIndex = 67;
@@ -1211,7 +1211,7 @@
             this.chk_DischargeZMonitor.FalseTip = "关闭";
             this.chk_DischargeZMonitor.IsCkecked = false;
             this.chk_DischargeZMonitor.Location = new System.Drawing.Point(752, 426);
-            this.chk_DischargeZMonitor.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_DischargeZMonitor.Margin = new System.Windows.Forms.Padding(5);
             this.chk_DischargeZMonitor.Name = "chk_DischargeZMonitor";
             this.chk_DischargeZMonitor.Size = new System.Drawing.Size(307, 36);
             this.chk_DischargeZMonitor.TabIndex = 66;
@@ -1259,7 +1259,7 @@
             this.chk_bend1_CalibProtect.FalseTip = "关闭";
             this.chk_bend1_CalibProtect.IsCkecked = false;
             this.chk_bend1_CalibProtect.Location = new System.Drawing.Point(1104, 166);
-            this.chk_bend1_CalibProtect.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_bend1_CalibProtect.Margin = new System.Windows.Forms.Padding(9);
             this.chk_bend1_CalibProtect.Name = "chk_bend1_CalibProtect";
             this.chk_bend1_CalibProtect.Size = new System.Drawing.Size(304, 38);
             this.chk_bend1_CalibProtect.TabIndex = 62;
@@ -1271,7 +1271,7 @@
             this.chk_BefoTearCheck.FalseTip = "否";
             this.chk_BefoTearCheck.IsCkecked = false;
             this.chk_BefoTearCheck.Location = new System.Drawing.Point(1107, 295);
-            this.chk_BefoTearCheck.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_BefoTearCheck.Margin = new System.Windows.Forms.Padding(5);
             this.chk_BefoTearCheck.Name = "chk_BefoTearCheck";
             this.chk_BefoTearCheck.Size = new System.Drawing.Size(307, 28);
             this.chk_BefoTearCheck.TabIndex = 61;
@@ -1283,19 +1283,20 @@
             this.chk_ControlUpStreamEnable.FalseTip = "否";
             this.chk_ControlUpStreamEnable.IsCkecked = false;
             this.chk_ControlUpStreamEnable.Location = new System.Drawing.Point(32, 426);
-            this.chk_ControlUpStreamEnable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_ControlUpStreamEnable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_ControlUpStreamEnable.Name = "chk_ControlUpStreamEnable";
             this.chk_ControlUpStreamEnable.Size = new System.Drawing.Size(307, 36);
             this.chk_ControlUpStreamEnable.TabIndex = 60;
             this.chk_ControlUpStreamEnable.Tips = "控制上游流水线:";
             this.chk_ControlUpStreamEnable.TrueTip = "是";
+            this.chk_ControlUpStreamEnable.Visible = false;
             // 
             // chk_DischargeAxiaZCylinder_Enable
             // 
             this.chk_DischargeAxiaZCylinder_Enable.FalseTip = "关闭";
             this.chk_DischargeAxiaZCylinder_Enable.IsCkecked = false;
             this.chk_DischargeAxiaZCylinder_Enable.Location = new System.Drawing.Point(1129, 574);
-            this.chk_DischargeAxiaZCylinder_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_DischargeAxiaZCylinder_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_DischargeAxiaZCylinder_Enable.Name = "chk_DischargeAxiaZCylinder_Enable";
             this.chk_DischargeAxiaZCylinder_Enable.Size = new System.Drawing.Size(303, 36);
             this.chk_DischargeAxiaZCylinder_Enable.TabIndex = 59;
@@ -1308,7 +1309,7 @@
             this.chk_NGNotBendOutType.FalseTip = "正常";
             this.chk_NGNotBendOutType.IsCkecked = false;
             this.chk_NGNotBendOutType.Location = new System.Drawing.Point(32, 334);
-            this.chk_NGNotBendOutType.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_NGNotBendOutType.Margin = new System.Windows.Forms.Padding(5);
             this.chk_NGNotBendOutType.Name = "chk_NGNotBendOutType";
             this.chk_NGNotBendOutType.Size = new System.Drawing.Size(307, 36);
             this.chk_NGNotBendOutType.TabIndex = 58;
@@ -1320,7 +1321,7 @@
             this.chk_DischargeCylinder_Enable.FalseTip = "关闭";
             this.chk_DischargeCylinder_Enable.IsCkecked = false;
             this.chk_DischargeCylinder_Enable.Location = new System.Drawing.Point(540, 625);
-            this.chk_DischargeCylinder_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_DischargeCylinder_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_DischargeCylinder_Enable.Name = "chk_DischargeCylinder_Enable";
             this.chk_DischargeCylinder_Enable.Size = new System.Drawing.Size(303, 36);
             this.chk_DischargeCylinder_Enable.TabIndex = 57;
@@ -1333,7 +1334,7 @@
             this.chk_FeedCylinder_Enable.FalseTip = "关闭";
             this.chk_FeedCylinder_Enable.IsCkecked = false;
             this.chk_FeedCylinder_Enable.Location = new System.Drawing.Point(539, 564);
-            this.chk_FeedCylinder_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_FeedCylinder_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_FeedCylinder_Enable.Name = "chk_FeedCylinder_Enable";
             this.chk_FeedCylinder_Enable.Size = new System.Drawing.Size(303, 36);
             this.chk_FeedCylinder_Enable.TabIndex = 56;
@@ -1346,7 +1347,7 @@
             this.chk_loadcellRstEnable.FalseTip = "屏蔽";
             this.chk_loadcellRstEnable.IsCkecked = false;
             this.chk_loadcellRstEnable.Location = new System.Drawing.Point(385, 398);
-            this.chk_loadcellRstEnable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_loadcellRstEnable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_loadcellRstEnable.Name = "chk_loadcellRstEnable";
             this.chk_loadcellRstEnable.Size = new System.Drawing.Size(301, 36);
             this.chk_loadcellRstEnable.TabIndex = 54;
@@ -1358,7 +1359,7 @@
             this.chk_TearRecheck_Enabled.FalseTip = "关闭";
             this.chk_TearRecheck_Enabled.IsCkecked = false;
             this.chk_TearRecheck_Enabled.Location = new System.Drawing.Point(1107, 324);
-            this.chk_TearRecheck_Enabled.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_TearRecheck_Enabled.Margin = new System.Windows.Forms.Padding(5);
             this.chk_TearRecheck_Enabled.Name = "chk_TearRecheck_Enabled";
             this.chk_TearRecheck_Enabled.Size = new System.Drawing.Size(303, 36);
             this.chk_TearRecheck_Enabled.TabIndex = 53;
@@ -1370,7 +1371,7 @@
             this.chk_dsgFullSensorEnable.FalseTip = "屏蔽";
             this.chk_dsgFullSensorEnable.IsCkecked = false;
             this.chk_dsgFullSensorEnable.Location = new System.Drawing.Point(32, 398);
-            this.chk_dsgFullSensorEnable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_dsgFullSensorEnable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_dsgFullSensorEnable.Name = "chk_dsgFullSensorEnable";
             this.chk_dsgFullSensorEnable.Size = new System.Drawing.Size(327, 36);
             this.chk_dsgFullSensorEnable.TabIndex = 51;
@@ -1382,7 +1383,7 @@
             this.chk_tearAOIBlow.FalseTip = "屏蔽";
             this.chk_tearAOIBlow.IsCkecked = false;
             this.chk_tearAOIBlow.Location = new System.Drawing.Point(540, 594);
-            this.chk_tearAOIBlow.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_tearAOIBlow.Margin = new System.Windows.Forms.Padding(5);
             this.chk_tearAOIBlow.Name = "chk_tearAOIBlow";
             this.chk_tearAOIBlow.Size = new System.Drawing.Size(301, 36);
             this.chk_tearAOIBlow.TabIndex = 50;
@@ -1395,7 +1396,7 @@
             this.chk_tear3Rll_Fst.FalseTip = "关闭";
             this.chk_tear3Rll_Fst.IsCkecked = false;
             this.chk_tear3Rll_Fst.Location = new System.Drawing.Point(836, 694);
-            this.chk_tear3Rll_Fst.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_tear3Rll_Fst.Margin = new System.Windows.Forms.Padding(9);
             this.chk_tear3Rll_Fst.Name = "chk_tear3Rll_Fst";
             this.chk_tear3Rll_Fst.Size = new System.Drawing.Size(303, 36);
             this.chk_tear3Rll_Fst.TabIndex = 49;
@@ -1421,7 +1422,7 @@
             this.chk_tear1Rll_Fst.FalseTip = "关闭";
             this.chk_tear1Rll_Fst.IsCkecked = false;
             this.chk_tear1Rll_Fst.Location = new System.Drawing.Point(835, 631);
-            this.chk_tear1Rll_Fst.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_tear1Rll_Fst.Margin = new System.Windows.Forms.Padding(5);
             this.chk_tear1Rll_Fst.Name = "chk_tear1Rll_Fst";
             this.chk_tear1Rll_Fst.Size = new System.Drawing.Size(303, 36);
             this.chk_tear1Rll_Fst.TabIndex = 47;
@@ -1434,7 +1435,7 @@
             this.checkButton1.FalseTip = "屏蔽";
             this.checkButton1.IsCkecked = false;
             this.checkButton1.Location = new System.Drawing.Point(1107, 358);
-            this.checkButton1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkButton1.Margin = new System.Windows.Forms.Padding(5);
             this.checkButton1.Name = "checkButton1";
             this.checkButton1.Size = new System.Drawing.Size(301, 36);
             this.checkButton1.TabIndex = 46;
@@ -1446,7 +1447,7 @@
             this.chk_QRCode_Enable.FalseTip = "屏蔽";
             this.chk_QRCode_Enable.IsCkecked = false;
             this.chk_QRCode_Enable.Location = new System.Drawing.Point(1129, 691);
-            this.chk_QRCode_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_QRCode_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_QRCode_Enable.Name = "chk_QRCode_Enable";
             this.chk_QRCode_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_QRCode_Enable.TabIndex = 45;
@@ -1459,7 +1460,7 @@
             this.chk_loadcell3_Enable.FalseTip = "屏蔽";
             this.chk_loadcell3_Enable.IsCkecked = false;
             this.chk_loadcell3_Enable.Location = new System.Drawing.Point(384, 365);
-            this.chk_loadcell3_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_loadcell3_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_loadcell3_Enable.Name = "chk_loadcell3_Enable";
             this.chk_loadcell3_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_loadcell3_Enable.TabIndex = 44;
@@ -1471,7 +1472,7 @@
             this.chk_loadcell2_Enable.FalseTip = "屏蔽";
             this.chk_loadcell2_Enable.IsCkecked = false;
             this.chk_loadcell2_Enable.Location = new System.Drawing.Point(384, 334);
-            this.chk_loadcell2_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_loadcell2_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_loadcell2_Enable.Name = "chk_loadcell2_Enable";
             this.chk_loadcell2_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_loadcell2_Enable.TabIndex = 43;
@@ -1483,7 +1484,7 @@
             this.chk_loadcell1_Enable.FalseTip = "屏蔽";
             this.chk_loadcell1_Enable.IsCkecked = false;
             this.chk_loadcell1_Enable.Location = new System.Drawing.Point(384, 301);
-            this.chk_loadcell1_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_loadcell1_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_loadcell1_Enable.Name = "chk_loadcell1_Enable";
             this.chk_loadcell1_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_loadcell1_Enable.TabIndex = 42;
@@ -1519,7 +1520,7 @@
             this.chk_bend1Free.FalseTip = "关闭";
             this.chk_bend1Free.IsCkecked = false;
             this.chk_bend1Free.Location = new System.Drawing.Point(752, 166);
-            this.chk_bend1Free.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_bend1Free.Margin = new System.Windows.Forms.Padding(9);
             this.chk_bend1Free.Name = "chk_bend1Free";
             this.chk_bend1Free.Size = new System.Drawing.Size(304, 38);
             this.chk_bend1Free.TabIndex = 39;
@@ -1531,7 +1532,7 @@
             this.chk_optical3_Enable.FalseTip = "屏蔽";
             this.chk_optical3_Enable.IsCkecked = false;
             this.chk_optical3_Enable.Location = new System.Drawing.Point(835, 599);
-            this.chk_optical3_Enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_optical3_Enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_optical3_Enable.Name = "chk_optical3_Enable";
             this.chk_optical3_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_optical3_Enable.TabIndex = 35;
@@ -1557,7 +1558,7 @@
             this.chk_optical1_Enable.FalseTip = "屏蔽";
             this.chk_optical1_Enable.IsCkecked = false;
             this.chk_optical1_Enable.Location = new System.Drawing.Point(835, 536);
-            this.chk_optical1_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_optical1_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_optical1_Enable.Name = "chk_optical1_Enable";
             this.chk_optical1_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_optical1_Enable.TabIndex = 33;
@@ -1570,7 +1571,7 @@
             this.chk_Glue3_Enable.FalseTip = "屏蔽";
             this.chk_Glue3_Enable.IsCkecked = false;
             this.chk_Glue3_Enable.Location = new System.Drawing.Point(1107, 106);
-            this.chk_Glue3_Enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_Glue3_Enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_Glue3_Enable.Name = "chk_Glue3_Enable";
             this.chk_Glue3_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_Glue3_Enable.TabIndex = 32;
@@ -1594,7 +1595,7 @@
             this.chk_Glue1_Enable.FalseTip = "屏蔽";
             this.chk_Glue1_Enable.IsCkecked = false;
             this.chk_Glue1_Enable.Location = new System.Drawing.Point(1107, 32);
-            this.chk_Glue1_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_Glue1_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_Glue1_Enable.Name = "chk_Glue1_Enable";
             this.chk_Glue1_Enable.Size = new System.Drawing.Size(301, 36);
             this.chk_Glue1_Enable.TabIndex = 30;
@@ -1606,7 +1607,7 @@
             this.chk_tear3RllCLD_Enable.FalseTip = "关闭";
             this.chk_tear3RllCLD_Enable.IsCkecked = false;
             this.chk_tear3RllCLD_Enable.Location = new System.Drawing.Point(1129, 631);
-            this.chk_tear3RllCLD_Enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_tear3RllCLD_Enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_tear3RllCLD_Enable.Name = "chk_tear3RllCLD_Enable";
             this.chk_tear3RllCLD_Enable.Size = new System.Drawing.Size(303, 36);
             this.chk_tear3RllCLD_Enable.TabIndex = 23;
@@ -1632,7 +1633,7 @@
             this.chk_tear1RllCLD_Enable.FalseTip = "关闭";
             this.chk_tear1RllCLD_Enable.IsCkecked = false;
             this.chk_tear1RllCLD_Enable.Location = new System.Drawing.Point(1129, 660);
-            this.chk_tear1RllCLD_Enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_tear1RllCLD_Enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_tear1RllCLD_Enable.Name = "chk_tear1RllCLD_Enable";
             this.chk_tear1RllCLD_Enable.Size = new System.Drawing.Size(297, 36);
             this.chk_tear1RllCLD_Enable.TabIndex = 21;
@@ -1645,7 +1646,7 @@
             this.chk_rightsm_sm_enable.FalseTip = "关闭";
             this.chk_rightsm_sm_enable.IsCkecked = false;
             this.chk_rightsm_sm_enable.Location = new System.Drawing.Point(752, 106);
-            this.chk_rightsm_sm_enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_rightsm_sm_enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_rightsm_sm_enable.Name = "chk_rightsm_sm_enable";
             this.chk_rightsm_sm_enable.Size = new System.Drawing.Size(303, 36);
             this.chk_rightsm_sm_enable.TabIndex = 17;
@@ -1669,7 +1670,7 @@
             this.chk_leftsm_sm_enable.FalseTip = "关闭";
             this.chk_leftsm_sm_enable.IsCkecked = false;
             this.chk_leftsm_sm_enable.Location = new System.Drawing.Point(751, 34);
-            this.chk_leftsm_sm_enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_leftsm_sm_enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_leftsm_sm_enable.Name = "chk_leftsm_sm_enable";
             this.chk_leftsm_sm_enable.Size = new System.Drawing.Size(303, 36);
             this.chk_leftsm_sm_enable.TabIndex = 15;
@@ -1705,7 +1706,7 @@
             this.chk_leftbend_aoi_enable.FalseTip = "关闭";
             this.chk_leftbend_aoi_enable.IsCkecked = false;
             this.chk_leftbend_aoi_enable.Location = new System.Drawing.Point(384, 176);
-            this.chk_leftbend_aoi_enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_leftbend_aoi_enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_leftbend_aoi_enable.Name = "chk_leftbend_aoi_enable";
             this.chk_leftbend_aoi_enable.Size = new System.Drawing.Size(304, 38);
             this.chk_leftbend_aoi_enable.TabIndex = 9;
@@ -1729,7 +1730,7 @@
             this.chk_midsm_aoi_enable.FalseTip = "关闭";
             this.chk_midsm_aoi_enable.IsCkecked = false;
             this.chk_midsm_aoi_enable.Location = new System.Drawing.Point(384, 71);
-            this.chk_midsm_aoi_enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_midsm_aoi_enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_midsm_aoi_enable.Name = "chk_midsm_aoi_enable";
             this.chk_midsm_aoi_enable.Size = new System.Drawing.Size(304, 31);
             this.chk_midsm_aoi_enable.TabIndex = 7;
@@ -1765,7 +1766,7 @@
             this.chk__midbend_enable.FalseTip = "屏蔽";
             this.chk__midbend_enable.IsCkecked = false;
             this.chk__midbend_enable.Location = new System.Drawing.Point(32, 211);
-            this.chk__midbend_enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk__midbend_enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk__midbend_enable.Name = "chk__midbend_enable";
             this.chk__midbend_enable.Size = new System.Drawing.Size(301, 32);
             this.chk__midbend_enable.TabIndex = 4;
@@ -1789,7 +1790,7 @@
             this.chk_rightsm_enable.FalseTip = "屏蔽";
             this.chk_rightsm_enable.IsCkecked = false;
             this.chk_rightsm_enable.Location = new System.Drawing.Point(32, 106);
-            this.chk_rightsm_enable.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            this.chk_rightsm_enable.Margin = new System.Windows.Forms.Padding(9);
             this.chk_rightsm_enable.Name = "chk_rightsm_enable";
             this.chk_rightsm_enable.Size = new System.Drawing.Size(301, 36);
             this.chk_rightsm_enable.TabIndex = 2;
@@ -1813,7 +1814,7 @@
             this.chk_leftsm_enable.FalseTip = "屏蔽";
             this.chk_leftsm_enable.IsCkecked = false;
             this.chk_leftsm_enable.Location = new System.Drawing.Point(32, 32);
-            this.chk_leftsm_enable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_leftsm_enable.Margin = new System.Windows.Forms.Padding(5);
             this.chk_leftsm_enable.Name = "chk_leftsm_enable";
             this.chk_leftsm_enable.Size = new System.Drawing.Size(301, 36);
             this.chk_leftsm_enable.TabIndex = 0;
@@ -1824,7 +1825,7 @@
             // 
             this.tabPage20.Controls.Add(this.groupBoxEx1);
             this.tabPage20.Location = new System.Drawing.Point(4, 36);
-            this.tabPage20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage20.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage20.Name = "tabPage20";
             this.tabPage20.Size = new System.Drawing.Size(1447, 771);
             this.tabPage20.TabIndex = 2;
@@ -1841,9 +1842,9 @@
             this.groupBoxEx1.Controls.Add(this.tablelayout2);
             this.groupBoxEx1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBoxEx1.Location = new System.Drawing.Point(4, 4);
-            this.groupBoxEx1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxEx1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxEx1.Name = "groupBoxEx1";
-            this.groupBoxEx1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxEx1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxEx1.Size = new System.Drawing.Size(1372, 754);
             this.groupBoxEx1.TabIndex = 33;
             this.groupBoxEx1.TabStop = false;
@@ -1883,7 +1884,7 @@
             this.tablelayout20.Controls.Add(this.label204, 3, 0);
             this.tablelayout20.Controls.Add(this.checkValue76, 2, 4);
             this.tablelayout20.Location = new System.Drawing.Point(17, 629);
-            this.tablelayout20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout20.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout20.Name = "tablelayout20";
             this.tablelayout20.RowCount = 5;
             this.tablelayout20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -1928,7 +1929,7 @@
             this.tablelayout21.Controls.Add(this.label195, 3, 0);
             this.tablelayout21.Controls.Add(this.checkValue72, 2, 4);
             this.tablelayout21.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout21.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout21.Name = "tablelayout21";
             this.tablelayout21.RowCount = 5;
             this.tablelayout21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -1972,7 +1973,7 @@
             this.checkValue69.FalseTip = "否";
             this.checkValue69.IsCkecked = false;
             this.checkValue69.Location = new System.Drawing.Point(459, 139);
-            this.checkValue69.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue69.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue69.Name = "checkValue69";
             this.checkValue69.Size = new System.Drawing.Size(116, 22);
             this.checkValue69.TabIndex = 344;
@@ -2126,7 +2127,7 @@
             this.checkValue70.FalseTip = "否";
             this.checkValue70.IsCkecked = false;
             this.checkValue70.Location = new System.Drawing.Point(205, 139);
-            this.checkValue70.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue70.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue70.Name = "checkValue70";
             this.checkValue70.Size = new System.Drawing.Size(116, 22);
             this.checkValue70.TabIndex = 343;
@@ -2138,7 +2139,7 @@
             this.checkValue71.FalseTip = "否";
             this.checkValue71.IsCkecked = false;
             this.checkValue71.Location = new System.Drawing.Point(586, 139);
-            this.checkValue71.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue71.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue71.Name = "checkValue71";
             this.checkValue71.Size = new System.Drawing.Size(116, 22);
             this.checkValue71.TabIndex = 346;
@@ -2216,7 +2217,7 @@
             this.checkValue72.FalseTip = "否";
             this.checkValue72.IsCkecked = false;
             this.checkValue72.Location = new System.Drawing.Point(332, 139);
-            this.checkValue72.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue72.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue72.Name = "checkValue72";
             this.checkValue72.Size = new System.Drawing.Size(116, 22);
             this.checkValue72.TabIndex = 345;
@@ -2254,7 +2255,7 @@
             this.checkValue73.FalseTip = "否";
             this.checkValue73.IsCkecked = false;
             this.checkValue73.Location = new System.Drawing.Point(586, 139);
-            this.checkValue73.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue73.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue73.Name = "checkValue73";
             this.checkValue73.Size = new System.Drawing.Size(116, 22);
             this.checkValue73.TabIndex = 344;
@@ -2408,7 +2409,7 @@
             this.checkValue74.FalseTip = "否";
             this.checkValue74.IsCkecked = false;
             this.checkValue74.Location = new System.Drawing.Point(332, 139);
-            this.checkValue74.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue74.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue74.Name = "checkValue74";
             this.checkValue74.Size = new System.Drawing.Size(116, 22);
             this.checkValue74.TabIndex = 343;
@@ -2420,7 +2421,7 @@
             this.checkValue75.FalseTip = "否";
             this.checkValue75.IsCkecked = false;
             this.checkValue75.Location = new System.Drawing.Point(5, 171);
-            this.checkValue75.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue75.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue75.Name = "checkValue75";
             this.checkValue75.Size = new System.Drawing.Size(116, 15);
             this.checkValue75.TabIndex = 346;
@@ -2498,7 +2499,7 @@
             this.checkValue76.FalseTip = "否";
             this.checkValue76.IsCkecked = false;
             this.checkValue76.Location = new System.Drawing.Point(459, 139);
-            this.checkValue76.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue76.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue76.Name = "checkValue76";
             this.checkValue76.Size = new System.Drawing.Size(116, 22);
             this.checkValue76.TabIndex = 345;
@@ -2541,7 +2542,7 @@
             this.tablelayout4.Controls.Add(this.label60, 3, 0);
             this.tablelayout4.Controls.Add(this.checkValue12, 2, 4);
             this.tablelayout4.Location = new System.Drawing.Point(17, 520);
-            this.tablelayout4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout4.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout4.Name = "tablelayout4";
             this.tablelayout4.RowCount = 6;
             this.tablelayout4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -2589,7 +2590,7 @@
             this.tablelayout12.Controls.Add(this.label186, 3, 0);
             this.tablelayout12.Controls.Add(this.checkValue68, 2, 4);
             this.tablelayout12.Location = new System.Drawing.Point(204, 170);
-            this.tablelayout12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout12.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout12.Name = "tablelayout12";
             this.tablelayout12.RowCount = 6;
             this.tablelayout12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -2636,7 +2637,7 @@
             this.tablelayout13.Controls.Add(this.label150, 3, 0);
             this.tablelayout13.Controls.Add(this.checkValue52, 2, 4);
             this.tablelayout13.Location = new System.Drawing.Point(204, 170);
-            this.tablelayout13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout13.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout13.Name = "tablelayout13";
             this.tablelayout13.RowCount = 6;
             this.tablelayout13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -2682,7 +2683,7 @@
             this.tablelayout14.Controls.Add(this.label132, 3, 0);
             this.tablelayout14.Controls.Add(this.checkValue44, 2, 4);
             this.tablelayout14.Location = new System.Drawing.Point(204, 170);
-            this.tablelayout14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout14.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout14.Name = "tablelayout14";
             this.tablelayout14.RowCount = 5;
             this.tablelayout14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -2727,7 +2728,7 @@
             this.tablelayout15.Controls.Add(this.label123, 3, 0);
             this.tablelayout15.Controls.Add(this.checkValue40, 2, 4);
             this.tablelayout15.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout15.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout15.Name = "tablelayout15";
             this.tablelayout15.RowCount = 5;
             this.tablelayout15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -2771,7 +2772,7 @@
             this.checkValue37.FalseTip = "否";
             this.checkValue37.IsCkecked = false;
             this.checkValue37.Location = new System.Drawing.Point(459, 139);
-            this.checkValue37.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue37.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue37.Name = "checkValue37";
             this.checkValue37.Size = new System.Drawing.Size(116, 22);
             this.checkValue37.TabIndex = 344;
@@ -2925,7 +2926,7 @@
             this.checkValue38.FalseTip = "否";
             this.checkValue38.IsCkecked = false;
             this.checkValue38.Location = new System.Drawing.Point(205, 139);
-            this.checkValue38.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue38.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue38.Name = "checkValue38";
             this.checkValue38.Size = new System.Drawing.Size(116, 22);
             this.checkValue38.TabIndex = 343;
@@ -2937,7 +2938,7 @@
             this.checkValue39.FalseTip = "否";
             this.checkValue39.IsCkecked = false;
             this.checkValue39.Location = new System.Drawing.Point(586, 139);
-            this.checkValue39.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue39.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue39.Name = "checkValue39";
             this.checkValue39.Size = new System.Drawing.Size(116, 22);
             this.checkValue39.TabIndex = 346;
@@ -3015,7 +3016,7 @@
             this.checkValue40.FalseTip = "否";
             this.checkValue40.IsCkecked = false;
             this.checkValue40.Location = new System.Drawing.Point(332, 139);
-            this.checkValue40.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue40.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue40.Name = "checkValue40";
             this.checkValue40.Size = new System.Drawing.Size(116, 22);
             this.checkValue40.TabIndex = 345;
@@ -3053,7 +3054,7 @@
             this.checkValue41.FalseTip = "否";
             this.checkValue41.IsCkecked = false;
             this.checkValue41.Location = new System.Drawing.Point(586, 139);
-            this.checkValue41.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue41.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue41.Name = "checkValue41";
             this.checkValue41.Size = new System.Drawing.Size(116, 22);
             this.checkValue41.TabIndex = 344;
@@ -3207,7 +3208,7 @@
             this.checkValue42.FalseTip = "否";
             this.checkValue42.IsCkecked = false;
             this.checkValue42.Location = new System.Drawing.Point(332, 139);
-            this.checkValue42.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue42.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue42.Name = "checkValue42";
             this.checkValue42.Size = new System.Drawing.Size(116, 22);
             this.checkValue42.TabIndex = 343;
@@ -3219,7 +3220,7 @@
             this.checkValue43.FalseTip = "否";
             this.checkValue43.IsCkecked = false;
             this.checkValue43.Location = new System.Drawing.Point(5, 171);
-            this.checkValue43.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue43.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue43.Name = "checkValue43";
             this.checkValue43.Size = new System.Drawing.Size(116, 15);
             this.checkValue43.TabIndex = 346;
@@ -3297,7 +3298,7 @@
             this.checkValue44.FalseTip = "否";
             this.checkValue44.IsCkecked = false;
             this.checkValue44.Location = new System.Drawing.Point(459, 139);
-            this.checkValue44.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue44.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue44.Name = "checkValue44";
             this.checkValue44.Size = new System.Drawing.Size(116, 22);
             this.checkValue44.TabIndex = 345;
@@ -3336,7 +3337,7 @@
             this.tablelayout16.Controls.Add(this.label141, 3, 0);
             this.tablelayout16.Controls.Add(this.checkValue48, 2, 4);
             this.tablelayout16.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout16.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout16.Name = "tablelayout16";
             this.tablelayout16.RowCount = 5;
             this.tablelayout16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -3380,7 +3381,7 @@
             this.checkValue45.FalseTip = "否";
             this.checkValue45.IsCkecked = false;
             this.checkValue45.Location = new System.Drawing.Point(459, 139);
-            this.checkValue45.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue45.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue45.Name = "checkValue45";
             this.checkValue45.Size = new System.Drawing.Size(116, 22);
             this.checkValue45.TabIndex = 344;
@@ -3534,7 +3535,7 @@
             this.checkValue46.FalseTip = "否";
             this.checkValue46.IsCkecked = false;
             this.checkValue46.Location = new System.Drawing.Point(205, 139);
-            this.checkValue46.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue46.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue46.Name = "checkValue46";
             this.checkValue46.Size = new System.Drawing.Size(116, 22);
             this.checkValue46.TabIndex = 343;
@@ -3546,7 +3547,7 @@
             this.checkValue47.FalseTip = "否";
             this.checkValue47.IsCkecked = false;
             this.checkValue47.Location = new System.Drawing.Point(586, 139);
-            this.checkValue47.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue47.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue47.Name = "checkValue47";
             this.checkValue47.Size = new System.Drawing.Size(116, 22);
             this.checkValue47.TabIndex = 346;
@@ -3624,7 +3625,7 @@
             this.checkValue48.FalseTip = "否";
             this.checkValue48.IsCkecked = false;
             this.checkValue48.Location = new System.Drawing.Point(332, 139);
-            this.checkValue48.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue48.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue48.Name = "checkValue48";
             this.checkValue48.Size = new System.Drawing.Size(116, 22);
             this.checkValue48.TabIndex = 345;
@@ -3662,7 +3663,7 @@
             this.checkValue49.FalseTip = "否";
             this.checkValue49.IsCkecked = false;
             this.checkValue49.Location = new System.Drawing.Point(586, 139);
-            this.checkValue49.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue49.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue49.Name = "checkValue49";
             this.checkValue49.Size = new System.Drawing.Size(116, 22);
             this.checkValue49.TabIndex = 344;
@@ -3816,7 +3817,7 @@
             this.checkValue50.FalseTip = "否";
             this.checkValue50.IsCkecked = false;
             this.checkValue50.Location = new System.Drawing.Point(332, 139);
-            this.checkValue50.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue50.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue50.Name = "checkValue50";
             this.checkValue50.Size = new System.Drawing.Size(116, 22);
             this.checkValue50.TabIndex = 343;
@@ -3828,7 +3829,7 @@
             this.checkValue51.FalseTip = "否";
             this.checkValue51.IsCkecked = false;
             this.checkValue51.Location = new System.Drawing.Point(5, 171);
-            this.checkValue51.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue51.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue51.Name = "checkValue51";
             this.checkValue51.Size = new System.Drawing.Size(116, 15);
             this.checkValue51.TabIndex = 346;
@@ -3906,7 +3907,7 @@
             this.checkValue52.FalseTip = "否";
             this.checkValue52.IsCkecked = false;
             this.checkValue52.Location = new System.Drawing.Point(459, 139);
-            this.checkValue52.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue52.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue52.Name = "checkValue52";
             this.checkValue52.Size = new System.Drawing.Size(116, 22);
             this.checkValue52.TabIndex = 345;
@@ -3946,7 +3947,7 @@
             this.tablelayout17.Controls.Add(this.label168, 3, 0);
             this.tablelayout17.Controls.Add(this.checkValue60, 2, 4);
             this.tablelayout17.Location = new System.Drawing.Point(331, 170);
-            this.tablelayout17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout17.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout17.Name = "tablelayout17";
             this.tablelayout17.RowCount = 5;
             this.tablelayout17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -3991,7 +3992,7 @@
             this.tablelayout18.Controls.Add(this.label159, 3, 0);
             this.tablelayout18.Controls.Add(this.checkValue56, 2, 4);
             this.tablelayout18.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout18.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout18.Name = "tablelayout18";
             this.tablelayout18.RowCount = 5;
             this.tablelayout18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -4035,7 +4036,7 @@
             this.checkValue53.FalseTip = "否";
             this.checkValue53.IsCkecked = false;
             this.checkValue53.Location = new System.Drawing.Point(459, 139);
-            this.checkValue53.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue53.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue53.Name = "checkValue53";
             this.checkValue53.Size = new System.Drawing.Size(116, 22);
             this.checkValue53.TabIndex = 344;
@@ -4189,7 +4190,7 @@
             this.checkValue54.FalseTip = "否";
             this.checkValue54.IsCkecked = false;
             this.checkValue54.Location = new System.Drawing.Point(205, 139);
-            this.checkValue54.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue54.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue54.Name = "checkValue54";
             this.checkValue54.Size = new System.Drawing.Size(116, 22);
             this.checkValue54.TabIndex = 343;
@@ -4201,7 +4202,7 @@
             this.checkValue55.FalseTip = "否";
             this.checkValue55.IsCkecked = false;
             this.checkValue55.Location = new System.Drawing.Point(586, 139);
-            this.checkValue55.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue55.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue55.Name = "checkValue55";
             this.checkValue55.Size = new System.Drawing.Size(116, 22);
             this.checkValue55.TabIndex = 346;
@@ -4279,7 +4280,7 @@
             this.checkValue56.FalseTip = "否";
             this.checkValue56.IsCkecked = false;
             this.checkValue56.Location = new System.Drawing.Point(332, 139);
-            this.checkValue56.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue56.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue56.Name = "checkValue56";
             this.checkValue56.Size = new System.Drawing.Size(116, 22);
             this.checkValue56.TabIndex = 345;
@@ -4317,7 +4318,7 @@
             this.checkValue57.FalseTip = "否";
             this.checkValue57.IsCkecked = false;
             this.checkValue57.Location = new System.Drawing.Point(586, 139);
-            this.checkValue57.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue57.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue57.Name = "checkValue57";
             this.checkValue57.Size = new System.Drawing.Size(116, 22);
             this.checkValue57.TabIndex = 344;
@@ -4471,7 +4472,7 @@
             this.checkValue58.FalseTip = "否";
             this.checkValue58.IsCkecked = false;
             this.checkValue58.Location = new System.Drawing.Point(332, 139);
-            this.checkValue58.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue58.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue58.Name = "checkValue58";
             this.checkValue58.Size = new System.Drawing.Size(116, 22);
             this.checkValue58.TabIndex = 343;
@@ -4483,7 +4484,7 @@
             this.checkValue59.FalseTip = "否";
             this.checkValue59.IsCkecked = false;
             this.checkValue59.Location = new System.Drawing.Point(5, 171);
-            this.checkValue59.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue59.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue59.Name = "checkValue59";
             this.checkValue59.Size = new System.Drawing.Size(116, 15);
             this.checkValue59.TabIndex = 346;
@@ -4561,7 +4562,7 @@
             this.checkValue60.FalseTip = "否";
             this.checkValue60.IsCkecked = false;
             this.checkValue60.Location = new System.Drawing.Point(459, 139);
-            this.checkValue60.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue60.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue60.Name = "checkValue60";
             this.checkValue60.Size = new System.Drawing.Size(116, 22);
             this.checkValue60.TabIndex = 345;
@@ -4600,7 +4601,7 @@
             this.tablelayout19.Controls.Add(this.label177, 3, 0);
             this.tablelayout19.Controls.Add(this.checkValue64, 2, 4);
             this.tablelayout19.Location = new System.Drawing.Point(4, 138);
-            this.tablelayout19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout19.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout19.Name = "tablelayout19";
             this.tablelayout19.RowCount = 5;
             this.tablelayout19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -4644,7 +4645,7 @@
             this.checkValue61.FalseTip = "否";
             this.checkValue61.IsCkecked = false;
             this.checkValue61.Location = new System.Drawing.Point(459, 139);
-            this.checkValue61.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue61.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue61.Name = "checkValue61";
             this.checkValue61.Size = new System.Drawing.Size(116, 22);
             this.checkValue61.TabIndex = 344;
@@ -4798,7 +4799,7 @@
             this.checkValue62.FalseTip = "否";
             this.checkValue62.IsCkecked = false;
             this.checkValue62.Location = new System.Drawing.Point(205, 139);
-            this.checkValue62.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue62.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue62.Name = "checkValue62";
             this.checkValue62.Size = new System.Drawing.Size(116, 22);
             this.checkValue62.TabIndex = 343;
@@ -4810,7 +4811,7 @@
             this.checkValue63.FalseTip = "否";
             this.checkValue63.IsCkecked = false;
             this.checkValue63.Location = new System.Drawing.Point(586, 139);
-            this.checkValue63.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue63.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue63.Name = "checkValue63";
             this.checkValue63.Size = new System.Drawing.Size(116, 22);
             this.checkValue63.TabIndex = 346;
@@ -4888,7 +4889,7 @@
             this.checkValue64.FalseTip = "否";
             this.checkValue64.IsCkecked = false;
             this.checkValue64.Location = new System.Drawing.Point(332, 139);
-            this.checkValue64.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue64.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue64.Name = "checkValue64";
             this.checkValue64.Size = new System.Drawing.Size(116, 22);
             this.checkValue64.TabIndex = 345;
@@ -4926,7 +4927,7 @@
             this.checkValue65.FalseTip = "否";
             this.checkValue65.IsCkecked = false;
             this.checkValue65.Location = new System.Drawing.Point(586, 139);
-            this.checkValue65.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue65.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue65.Name = "checkValue65";
             this.checkValue65.Size = new System.Drawing.Size(116, 22);
             this.checkValue65.TabIndex = 344;
@@ -5080,7 +5081,7 @@
             this.checkValue66.FalseTip = "否";
             this.checkValue66.IsCkecked = false;
             this.checkValue66.Location = new System.Drawing.Point(332, 139);
-            this.checkValue66.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue66.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue66.Name = "checkValue66";
             this.checkValue66.Size = new System.Drawing.Size(116, 22);
             this.checkValue66.TabIndex = 343;
@@ -5092,7 +5093,7 @@
             this.checkValue67.FalseTip = "否";
             this.checkValue67.IsCkecked = false;
             this.checkValue67.Location = new System.Drawing.Point(5, 171);
-            this.checkValue67.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue67.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue67.Name = "checkValue67";
             this.checkValue67.Size = new System.Drawing.Size(116, 15);
             this.checkValue67.TabIndex = 346;
@@ -5170,7 +5171,7 @@
             this.checkValue68.FalseTip = "否";
             this.checkValue68.IsCkecked = false;
             this.checkValue68.Location = new System.Drawing.Point(459, 139);
-            this.checkValue68.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue68.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue68.Name = "checkValue68";
             this.checkValue68.Size = new System.Drawing.Size(116, 22);
             this.checkValue68.TabIndex = 345;
@@ -5211,7 +5212,7 @@
             this.tablelayout8.Controls.Add(this.label114, 3, 0);
             this.tablelayout8.Controls.Add(this.checkValue36, 2, 4);
             this.tablelayout8.Location = new System.Drawing.Point(331, 170);
-            this.tablelayout8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout8.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout8.Name = "tablelayout8";
             this.tablelayout8.RowCount = 6;
             this.tablelayout8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -5257,7 +5258,7 @@
             this.tablelayout9.Controls.Add(this.label96, 3, 0);
             this.tablelayout9.Controls.Add(this.checkValue28, 2, 4);
             this.tablelayout9.Location = new System.Drawing.Point(204, 170);
-            this.tablelayout9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout9.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout9.Name = "tablelayout9";
             this.tablelayout9.RowCount = 5;
             this.tablelayout9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -5302,7 +5303,7 @@
             this.tablelayout10.Controls.Add(this.label87, 3, 0);
             this.tablelayout10.Controls.Add(this.checkValue24, 2, 4);
             this.tablelayout10.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout10.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout10.Name = "tablelayout10";
             this.tablelayout10.RowCount = 5;
             this.tablelayout10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -5346,7 +5347,7 @@
             this.checkValue21.FalseTip = "否";
             this.checkValue21.IsCkecked = false;
             this.checkValue21.Location = new System.Drawing.Point(459, 139);
-            this.checkValue21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue21.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue21.Name = "checkValue21";
             this.checkValue21.Size = new System.Drawing.Size(116, 22);
             this.checkValue21.TabIndex = 344;
@@ -5500,7 +5501,7 @@
             this.checkValue22.FalseTip = "否";
             this.checkValue22.IsCkecked = false;
             this.checkValue22.Location = new System.Drawing.Point(205, 139);
-            this.checkValue22.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue22.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue22.Name = "checkValue22";
             this.checkValue22.Size = new System.Drawing.Size(116, 22);
             this.checkValue22.TabIndex = 343;
@@ -5512,7 +5513,7 @@
             this.checkValue23.FalseTip = "否";
             this.checkValue23.IsCkecked = false;
             this.checkValue23.Location = new System.Drawing.Point(586, 139);
-            this.checkValue23.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue23.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue23.Name = "checkValue23";
             this.checkValue23.Size = new System.Drawing.Size(116, 22);
             this.checkValue23.TabIndex = 346;
@@ -5590,7 +5591,7 @@
             this.checkValue24.FalseTip = "否";
             this.checkValue24.IsCkecked = false;
             this.checkValue24.Location = new System.Drawing.Point(332, 139);
-            this.checkValue24.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue24.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue24.Name = "checkValue24";
             this.checkValue24.Size = new System.Drawing.Size(116, 22);
             this.checkValue24.TabIndex = 345;
@@ -5628,7 +5629,7 @@
             this.checkValue25.FalseTip = "否";
             this.checkValue25.IsCkecked = false;
             this.checkValue25.Location = new System.Drawing.Point(586, 139);
-            this.checkValue25.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue25.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue25.Name = "checkValue25";
             this.checkValue25.Size = new System.Drawing.Size(116, 22);
             this.checkValue25.TabIndex = 344;
@@ -5782,7 +5783,7 @@
             this.checkValue26.FalseTip = "否";
             this.checkValue26.IsCkecked = false;
             this.checkValue26.Location = new System.Drawing.Point(332, 139);
-            this.checkValue26.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue26.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue26.Name = "checkValue26";
             this.checkValue26.Size = new System.Drawing.Size(116, 22);
             this.checkValue26.TabIndex = 343;
@@ -5794,7 +5795,7 @@
             this.checkValue27.FalseTip = "否";
             this.checkValue27.IsCkecked = false;
             this.checkValue27.Location = new System.Drawing.Point(5, 171);
-            this.checkValue27.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue27.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue27.Name = "checkValue27";
             this.checkValue27.Size = new System.Drawing.Size(116, 15);
             this.checkValue27.TabIndex = 346;
@@ -5872,7 +5873,7 @@
             this.checkValue28.FalseTip = "否";
             this.checkValue28.IsCkecked = false;
             this.checkValue28.Location = new System.Drawing.Point(459, 139);
-            this.checkValue28.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue28.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue28.Name = "checkValue28";
             this.checkValue28.Size = new System.Drawing.Size(116, 22);
             this.checkValue28.TabIndex = 345;
@@ -5911,7 +5912,7 @@
             this.tablelayout11.Controls.Add(this.label105, 3, 0);
             this.tablelayout11.Controls.Add(this.checkValue32, 2, 4);
             this.tablelayout11.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout11.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout11.Name = "tablelayout11";
             this.tablelayout11.RowCount = 5;
             this.tablelayout11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -5955,7 +5956,7 @@
             this.checkValue29.FalseTip = "否";
             this.checkValue29.IsCkecked = false;
             this.checkValue29.Location = new System.Drawing.Point(459, 139);
-            this.checkValue29.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue29.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue29.Name = "checkValue29";
             this.checkValue29.Size = new System.Drawing.Size(116, 22);
             this.checkValue29.TabIndex = 344;
@@ -6109,7 +6110,7 @@
             this.checkValue30.FalseTip = "否";
             this.checkValue30.IsCkecked = false;
             this.checkValue30.Location = new System.Drawing.Point(205, 139);
-            this.checkValue30.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue30.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue30.Name = "checkValue30";
             this.checkValue30.Size = new System.Drawing.Size(116, 22);
             this.checkValue30.TabIndex = 343;
@@ -6121,7 +6122,7 @@
             this.checkValue31.FalseTip = "否";
             this.checkValue31.IsCkecked = false;
             this.checkValue31.Location = new System.Drawing.Point(586, 139);
-            this.checkValue31.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue31.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue31.Name = "checkValue31";
             this.checkValue31.Size = new System.Drawing.Size(116, 22);
             this.checkValue31.TabIndex = 346;
@@ -6199,7 +6200,7 @@
             this.checkValue32.FalseTip = "否";
             this.checkValue32.IsCkecked = false;
             this.checkValue32.Location = new System.Drawing.Point(332, 139);
-            this.checkValue32.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue32.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue32.Name = "checkValue32";
             this.checkValue32.Size = new System.Drawing.Size(116, 22);
             this.checkValue32.TabIndex = 345;
@@ -6237,7 +6238,7 @@
             this.checkValue33.FalseTip = "否";
             this.checkValue33.IsCkecked = false;
             this.checkValue33.Location = new System.Drawing.Point(586, 139);
-            this.checkValue33.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue33.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue33.Name = "checkValue33";
             this.checkValue33.Size = new System.Drawing.Size(116, 22);
             this.checkValue33.TabIndex = 344;
@@ -6391,7 +6392,7 @@
             this.checkValue34.FalseTip = "否";
             this.checkValue34.IsCkecked = false;
             this.checkValue34.Location = new System.Drawing.Point(332, 139);
-            this.checkValue34.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue34.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue34.Name = "checkValue34";
             this.checkValue34.Size = new System.Drawing.Size(116, 22);
             this.checkValue34.TabIndex = 343;
@@ -6403,7 +6404,7 @@
             this.checkValue35.FalseTip = "否";
             this.checkValue35.IsCkecked = false;
             this.checkValue35.Location = new System.Drawing.Point(5, 171);
-            this.checkValue35.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue35.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue35.Name = "checkValue35";
             this.checkValue35.Size = new System.Drawing.Size(116, 15);
             this.checkValue35.TabIndex = 346;
@@ -6481,7 +6482,7 @@
             this.checkValue36.FalseTip = "否";
             this.checkValue36.IsCkecked = false;
             this.checkValue36.Location = new System.Drawing.Point(459, 139);
-            this.checkValue36.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue36.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue36.Name = "checkValue36";
             this.checkValue36.Size = new System.Drawing.Size(116, 22);
             this.checkValue36.TabIndex = 345;
@@ -6521,7 +6522,7 @@
             this.tablelayout6.Controls.Add(this.label78, 3, 0);
             this.tablelayout6.Controls.Add(this.checkValue20, 2, 4);
             this.tablelayout6.Location = new System.Drawing.Point(458, 170);
-            this.tablelayout6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout6.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout6.Name = "tablelayout6";
             this.tablelayout6.RowCount = 5;
             this.tablelayout6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -6566,7 +6567,7 @@
             this.tablelayout7.Controls.Add(this.label69, 3, 0);
             this.tablelayout7.Controls.Add(this.checkValue16, 2, 4);
             this.tablelayout7.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout7.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout7.Name = "tablelayout7";
             this.tablelayout7.RowCount = 5;
             this.tablelayout7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -6610,7 +6611,7 @@
             this.checkValue13.FalseTip = "否";
             this.checkValue13.IsCkecked = false;
             this.checkValue13.Location = new System.Drawing.Point(459, 139);
-            this.checkValue13.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue13.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue13.Name = "checkValue13";
             this.checkValue13.Size = new System.Drawing.Size(116, 22);
             this.checkValue13.TabIndex = 344;
@@ -6764,7 +6765,7 @@
             this.checkValue14.FalseTip = "否";
             this.checkValue14.IsCkecked = false;
             this.checkValue14.Location = new System.Drawing.Point(205, 139);
-            this.checkValue14.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue14.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue14.Name = "checkValue14";
             this.checkValue14.Size = new System.Drawing.Size(116, 22);
             this.checkValue14.TabIndex = 343;
@@ -6776,7 +6777,7 @@
             this.checkValue15.FalseTip = "否";
             this.checkValue15.IsCkecked = false;
             this.checkValue15.Location = new System.Drawing.Point(586, 139);
-            this.checkValue15.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue15.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue15.Name = "checkValue15";
             this.checkValue15.Size = new System.Drawing.Size(116, 22);
             this.checkValue15.TabIndex = 346;
@@ -6854,7 +6855,7 @@
             this.checkValue16.FalseTip = "否";
             this.checkValue16.IsCkecked = false;
             this.checkValue16.Location = new System.Drawing.Point(332, 139);
-            this.checkValue16.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue16.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue16.Name = "checkValue16";
             this.checkValue16.Size = new System.Drawing.Size(116, 22);
             this.checkValue16.TabIndex = 345;
@@ -6892,7 +6893,7 @@
             this.checkValue17.FalseTip = "否";
             this.checkValue17.IsCkecked = false;
             this.checkValue17.Location = new System.Drawing.Point(586, 139);
-            this.checkValue17.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue17.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue17.Name = "checkValue17";
             this.checkValue17.Size = new System.Drawing.Size(116, 22);
             this.checkValue17.TabIndex = 344;
@@ -7046,7 +7047,7 @@
             this.checkValue18.FalseTip = "否";
             this.checkValue18.IsCkecked = false;
             this.checkValue18.Location = new System.Drawing.Point(332, 139);
-            this.checkValue18.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue18.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue18.Name = "checkValue18";
             this.checkValue18.Size = new System.Drawing.Size(116, 22);
             this.checkValue18.TabIndex = 343;
@@ -7058,7 +7059,7 @@
             this.checkValue19.FalseTip = "否";
             this.checkValue19.IsCkecked = false;
             this.checkValue19.Location = new System.Drawing.Point(5, 171);
-            this.checkValue19.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue19.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue19.Name = "checkValue19";
             this.checkValue19.Size = new System.Drawing.Size(116, 15);
             this.checkValue19.TabIndex = 346;
@@ -7136,7 +7137,7 @@
             this.checkValue20.FalseTip = "否";
             this.checkValue20.IsCkecked = false;
             this.checkValue20.Location = new System.Drawing.Point(459, 139);
-            this.checkValue20.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue20.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue20.Name = "checkValue20";
             this.checkValue20.Size = new System.Drawing.Size(116, 22);
             this.checkValue20.TabIndex = 345;
@@ -7175,7 +7176,7 @@
             this.tablelayout5.Controls.Add(this.label51, 3, 0);
             this.tablelayout5.Controls.Add(this.checkValue8, 2, 4);
             this.tablelayout5.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout5.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout5.Name = "tablelayout5";
             this.tablelayout5.RowCount = 5;
             this.tablelayout5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -7219,7 +7220,7 @@
             this.checkValue5.FalseTip = "否";
             this.checkValue5.IsCkecked = false;
             this.checkValue5.Location = new System.Drawing.Point(459, 139);
-            this.checkValue5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue5.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue5.Name = "checkValue5";
             this.checkValue5.Size = new System.Drawing.Size(116, 22);
             this.checkValue5.TabIndex = 344;
@@ -7373,7 +7374,7 @@
             this.checkValue6.FalseTip = "否";
             this.checkValue6.IsCkecked = false;
             this.checkValue6.Location = new System.Drawing.Point(205, 139);
-            this.checkValue6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue6.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue6.Name = "checkValue6";
             this.checkValue6.Size = new System.Drawing.Size(116, 22);
             this.checkValue6.TabIndex = 343;
@@ -7385,7 +7386,7 @@
             this.checkValue7.FalseTip = "否";
             this.checkValue7.IsCkecked = false;
             this.checkValue7.Location = new System.Drawing.Point(586, 139);
-            this.checkValue7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue7.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue7.Name = "checkValue7";
             this.checkValue7.Size = new System.Drawing.Size(116, 22);
             this.checkValue7.TabIndex = 346;
@@ -7463,7 +7464,7 @@
             this.checkValue8.FalseTip = "否";
             this.checkValue8.IsCkecked = false;
             this.checkValue8.Location = new System.Drawing.Point(332, 139);
-            this.checkValue8.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue8.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue8.Name = "checkValue8";
             this.checkValue8.Size = new System.Drawing.Size(116, 22);
             this.checkValue8.TabIndex = 345;
@@ -7501,7 +7502,7 @@
             this.checkValue9.FalseTip = "否";
             this.checkValue9.IsCkecked = false;
             this.checkValue9.Location = new System.Drawing.Point(586, 139);
-            this.checkValue9.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue9.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue9.Name = "checkValue9";
             this.checkValue9.Size = new System.Drawing.Size(116, 22);
             this.checkValue9.TabIndex = 344;
@@ -7655,7 +7656,7 @@
             this.checkValue10.FalseTip = "否";
             this.checkValue10.IsCkecked = false;
             this.checkValue10.Location = new System.Drawing.Point(332, 139);
-            this.checkValue10.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue10.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue10.Name = "checkValue10";
             this.checkValue10.Size = new System.Drawing.Size(116, 22);
             this.checkValue10.TabIndex = 343;
@@ -7667,7 +7668,7 @@
             this.checkValue11.FalseTip = "否";
             this.checkValue11.IsCkecked = false;
             this.checkValue11.Location = new System.Drawing.Point(5, 171);
-            this.checkValue11.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue11.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue11.Name = "checkValue11";
             this.checkValue11.Size = new System.Drawing.Size(116, 15);
             this.checkValue11.TabIndex = 346;
@@ -7745,7 +7746,7 @@
             this.checkValue12.FalseTip = "否";
             this.checkValue12.IsCkecked = false;
             this.checkValue12.Location = new System.Drawing.Point(459, 139);
-            this.checkValue12.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue12.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue12.Name = "checkValue12";
             this.checkValue12.Size = new System.Drawing.Size(116, 22);
             this.checkValue12.TabIndex = 345;
@@ -7785,7 +7786,7 @@
             this.tablelayout1.Controls.Add(this.label15, 3, 0);
             this.tablelayout1.Controls.Add(this.chk_Y1, 2, 4);
             this.tablelayout1.Location = new System.Drawing.Point(17, 414);
-            this.tablelayout1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout1.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout1.Name = "tablelayout1";
             this.tablelayout1.RowCount = 6;
             this.tablelayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -7830,7 +7831,7 @@
             this.tablelayout3.Controls.Add(this.label21, 3, 0);
             this.tablelayout3.Controls.Add(this.checkValue4, 2, 4);
             this.tablelayout3.Location = new System.Drawing.Point(204, 138);
-            this.tablelayout3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout3.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout3.Name = "tablelayout3";
             this.tablelayout3.RowCount = 5;
             this.tablelayout3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -7874,7 +7875,7 @@
             this.checkValue1.FalseTip = "否";
             this.checkValue1.IsCkecked = false;
             this.checkValue1.Location = new System.Drawing.Point(459, 139);
-            this.checkValue1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue1.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue1.Name = "checkValue1";
             this.checkValue1.Size = new System.Drawing.Size(116, 22);
             this.checkValue1.TabIndex = 344;
@@ -8028,7 +8029,7 @@
             this.checkValue2.FalseTip = "否";
             this.checkValue2.IsCkecked = false;
             this.checkValue2.Location = new System.Drawing.Point(205, 139);
-            this.checkValue2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue2.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue2.Name = "checkValue2";
             this.checkValue2.Size = new System.Drawing.Size(116, 22);
             this.checkValue2.TabIndex = 343;
@@ -8040,7 +8041,7 @@
             this.checkValue3.FalseTip = "否";
             this.checkValue3.IsCkecked = false;
             this.checkValue3.Location = new System.Drawing.Point(586, 139);
-            this.checkValue3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue3.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue3.Name = "checkValue3";
             this.checkValue3.Size = new System.Drawing.Size(116, 22);
             this.checkValue3.TabIndex = 346;
@@ -8118,7 +8119,7 @@
             this.checkValue4.FalseTip = "否";
             this.checkValue4.IsCkecked = false;
             this.checkValue4.Location = new System.Drawing.Point(332, 139);
-            this.checkValue4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.checkValue4.Margin = new System.Windows.Forms.Padding(5);
             this.checkValue4.Name = "checkValue4";
             this.checkValue4.Size = new System.Drawing.Size(116, 22);
             this.checkValue4.TabIndex = 345;
@@ -8156,7 +8157,7 @@
             this.chk_X2.FalseTip = "否";
             this.chk_X2.IsCkecked = false;
             this.chk_X2.Location = new System.Drawing.Point(586, 139);
-            this.chk_X2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_X2.Margin = new System.Windows.Forms.Padding(5);
             this.chk_X2.Name = "chk_X2";
             this.chk_X2.Size = new System.Drawing.Size(116, 22);
             this.chk_X2.TabIndex = 344;
@@ -8310,7 +8311,7 @@
             this.chk_X1.FalseTip = "否";
             this.chk_X1.IsCkecked = false;
             this.chk_X1.Location = new System.Drawing.Point(332, 139);
-            this.chk_X1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_X1.Margin = new System.Windows.Forms.Padding(5);
             this.chk_X1.Name = "chk_X1";
             this.chk_X1.Size = new System.Drawing.Size(116, 22);
             this.chk_X1.TabIndex = 343;
@@ -8322,7 +8323,7 @@
             this.chk_Y2.FalseTip = "否";
             this.chk_Y2.IsCkecked = false;
             this.chk_Y2.Location = new System.Drawing.Point(5, 171);
-            this.chk_Y2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_Y2.Margin = new System.Windows.Forms.Padding(5);
             this.chk_Y2.Name = "chk_Y2";
             this.chk_Y2.Size = new System.Drawing.Size(116, 15);
             this.chk_Y2.TabIndex = 346;
@@ -8400,7 +8401,7 @@
             this.chk_Y1.FalseTip = "否";
             this.chk_Y1.IsCkecked = false;
             this.chk_Y1.Location = new System.Drawing.Point(459, 139);
-            this.chk_Y1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.chk_Y1.Margin = new System.Windows.Forms.Padding(5);
             this.chk_Y1.Name = "chk_Y1";
             this.chk_Y1.Size = new System.Drawing.Size(116, 22);
             this.chk_Y1.TabIndex = 345;
@@ -8530,7 +8531,7 @@
             this.tablelayout2.Controls.Add(this.Check_RightY2_DIR, 6, 10);
             this.tablelayout2.Controls.Add(this.check_WorkModel, 1, 14);
             this.tablelayout2.Location = new System.Drawing.Point(17, 25);
-            this.tablelayout2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tablelayout2.Margin = new System.Windows.Forms.Padding(4);
             this.tablelayout2.Name = "tablelayout2";
             this.tablelayout2.RowCount = 23;
             this.tablelayout2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
@@ -8564,7 +8565,7 @@
             this.panel27.Controls.Add(this.Var_RightY2_Up3);
             this.panel27.Controls.Add(this.Var_RightY2_Low3);
             this.panel27.Location = new System.Drawing.Point(732, 240);
-            this.panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel27.Margin = new System.Windows.Forms.Padding(4);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(119, 29);
             this.panel27.TabIndex = 341;
@@ -8600,7 +8601,7 @@
             this.panel26.Controls.Add(this.Var_RightY1_Up3);
             this.panel26.Controls.Add(this.Var_RightY1_Low3);
             this.panel26.Location = new System.Drawing.Point(605, 240);
-            this.panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel26.Margin = new System.Windows.Forms.Padding(4);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(119, 29);
             this.panel26.TabIndex = 340;
@@ -8636,7 +8637,7 @@
             this.panel25.Controls.Add(this.Var_MidY2_Up3);
             this.panel25.Controls.Add(this.Var_MidY2_Low3);
             this.panel25.Location = new System.Drawing.Point(478, 240);
-            this.panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel25.Margin = new System.Windows.Forms.Padding(4);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(119, 29);
             this.panel25.TabIndex = 339;
@@ -8672,7 +8673,7 @@
             this.panel24.Controls.Add(this.Var_MidY1_Up3);
             this.panel24.Controls.Add(this.Var_MidY1_Low3);
             this.panel24.Location = new System.Drawing.Point(351, 240);
-            this.panel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel24.Margin = new System.Windows.Forms.Padding(4);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(119, 29);
             this.panel24.TabIndex = 338;
@@ -8708,7 +8709,7 @@
             this.panel23.Controls.Add(this.Var_LeftY2_Up3);
             this.panel23.Controls.Add(this.Var_LeftY2_Low3);
             this.panel23.Location = new System.Drawing.Point(224, 240);
-            this.panel23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel23.Margin = new System.Windows.Forms.Padding(4);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(119, 29);
             this.panel23.TabIndex = 337;
@@ -8744,7 +8745,7 @@
             this.panel22.Controls.Add(this.Var_LeftY1_Up3);
             this.panel22.Controls.Add(this.Var_LeftY1_Low3);
             this.panel22.Location = new System.Drawing.Point(97, 240);
-            this.panel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel22.Margin = new System.Windows.Forms.Padding(4);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(119, 29);
             this.panel22.TabIndex = 336;
@@ -8780,7 +8781,7 @@
             this.panel21.Controls.Add(this.Var_RightY2_Up2);
             this.panel21.Controls.Add(this.Var_RightY2_Low2);
             this.panel21.Location = new System.Drawing.Point(732, 170);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel21.Margin = new System.Windows.Forms.Padding(4);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(119, 29);
             this.panel21.TabIndex = 335;
@@ -8816,7 +8817,7 @@
             this.panel20.Controls.Add(this.Var_RightY1_Up2);
             this.panel20.Controls.Add(this.Var_RightY1_Low2);
             this.panel20.Location = new System.Drawing.Point(605, 170);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(119, 29);
             this.panel20.TabIndex = 334;
@@ -8852,7 +8853,7 @@
             this.panel19.Controls.Add(this.Var_MidY2_Up2);
             this.panel19.Controls.Add(this.Var_MidY2_Low2);
             this.panel19.Location = new System.Drawing.Point(478, 170);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(119, 29);
             this.panel19.TabIndex = 333;
@@ -8888,7 +8889,7 @@
             this.panel18.Controls.Add(this.Var_MidY1_Up2);
             this.panel18.Controls.Add(this.Var_MidY1_Low2);
             this.panel18.Location = new System.Drawing.Point(351, 170);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(119, 29);
             this.panel18.TabIndex = 332;
@@ -8924,7 +8925,7 @@
             this.panel17.Controls.Add(this.Var_LeftY2_Up2);
             this.panel17.Controls.Add(this.Var_LeftY2_Low2);
             this.panel17.Location = new System.Drawing.Point(224, 170);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(119, 29);
             this.panel17.TabIndex = 331;
@@ -8960,7 +8961,7 @@
             this.panel16.Controls.Add(this.Var_LeftY1_Up2);
             this.panel16.Controls.Add(this.Var_LeftY1_Low2);
             this.panel16.Location = new System.Drawing.Point(97, 170);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(119, 29);
             this.panel16.TabIndex = 330;
@@ -8996,7 +8997,7 @@
             this.panel15.Controls.Add(this.Var_RightY2_Up1);
             this.panel15.Controls.Add(this.Var_RightY2_Low1);
             this.panel15.Location = new System.Drawing.Point(732, 100);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(119, 29);
             this.panel15.TabIndex = 329;
@@ -9032,7 +9033,7 @@
             this.panel14.Controls.Add(this.Var_RightY1_Up1);
             this.panel14.Controls.Add(this.Var_RightY1_Low1);
             this.panel14.Location = new System.Drawing.Point(605, 100);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(119, 29);
             this.panel14.TabIndex = 328;
@@ -9068,7 +9069,7 @@
             this.panel13.Controls.Add(this.Var_MidY2_Up1);
             this.panel13.Controls.Add(this.Var_MidY2_Low1);
             this.panel13.Location = new System.Drawing.Point(478, 100);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(119, 29);
             this.panel13.TabIndex = 327;
@@ -9104,7 +9105,7 @@
             this.panel12.Controls.Add(this.Var_MidY1_Up1);
             this.panel12.Controls.Add(this.Var_MidY1_Low1);
             this.panel12.Location = new System.Drawing.Point(351, 100);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(119, 29);
             this.panel12.TabIndex = 326;
@@ -9140,7 +9141,7 @@
             this.panel11.Controls.Add(this.Var_LeftY2_Up1);
             this.panel11.Controls.Add(this.Var_LeftY2_Low1);
             this.panel11.Location = new System.Drawing.Point(224, 100);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(119, 29);
             this.panel11.TabIndex = 325;
@@ -9176,7 +9177,7 @@
             this.panel10.Controls.Add(this.Var_LeftY1_Up1);
             this.panel10.Controls.Add(this.Var_LeftY1_Low1);
             this.panel10.Location = new System.Drawing.Point(97, 100);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(119, 29);
             this.panel10.TabIndex = 324;
@@ -10390,7 +10391,7 @@
             this.Check_LeftY1_DIR.FalseTip = "负";
             this.Check_LeftY1_DIR.IsCkecked = false;
             this.Check_LeftY1_DIR.Location = new System.Drawing.Point(98, 343);
-            this.Check_LeftY1_DIR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Check_LeftY1_DIR.Margin = new System.Windows.Forms.Padding(5);
             this.Check_LeftY1_DIR.Name = "Check_LeftY1_DIR";
             this.Check_LeftY1_DIR.Size = new System.Drawing.Size(116, 22);
             this.Check_LeftY1_DIR.TabIndex = 342;
@@ -10401,7 +10402,7 @@
             this.Check_LeftY2_DIR.FalseTip = "负";
             this.Check_LeftY2_DIR.IsCkecked = false;
             this.Check_LeftY2_DIR.Location = new System.Drawing.Point(225, 343);
-            this.Check_LeftY2_DIR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Check_LeftY2_DIR.Margin = new System.Windows.Forms.Padding(5);
             this.Check_LeftY2_DIR.Name = "Check_LeftY2_DIR";
             this.Check_LeftY2_DIR.Size = new System.Drawing.Size(116, 22);
             this.Check_LeftY2_DIR.TabIndex = 343;
@@ -10412,7 +10413,7 @@
             this.Check_MidY1_DIR.FalseTip = "负";
             this.Check_MidY1_DIR.IsCkecked = false;
             this.Check_MidY1_DIR.Location = new System.Drawing.Point(352, 343);
-            this.Check_MidY1_DIR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Check_MidY1_DIR.Margin = new System.Windows.Forms.Padding(5);
             this.Check_MidY1_DIR.Name = "Check_MidY1_DIR";
             this.Check_MidY1_DIR.Size = new System.Drawing.Size(116, 22);
             this.Check_MidY1_DIR.TabIndex = 344;
@@ -10423,7 +10424,7 @@
             this.Check_MidY2_DIR.FalseTip = "负";
             this.Check_MidY2_DIR.IsCkecked = false;
             this.Check_MidY2_DIR.Location = new System.Drawing.Point(479, 343);
-            this.Check_MidY2_DIR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Check_MidY2_DIR.Margin = new System.Windows.Forms.Padding(5);
             this.Check_MidY2_DIR.Name = "Check_MidY2_DIR";
             this.Check_MidY2_DIR.Size = new System.Drawing.Size(116, 22);
             this.Check_MidY2_DIR.TabIndex = 345;
@@ -10434,7 +10435,7 @@
             this.Check_RightY1_DIR.FalseTip = "负";
             this.Check_RightY1_DIR.IsCkecked = false;
             this.Check_RightY1_DIR.Location = new System.Drawing.Point(606, 343);
-            this.Check_RightY1_DIR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Check_RightY1_DIR.Margin = new System.Windows.Forms.Padding(5);
             this.Check_RightY1_DIR.Name = "Check_RightY1_DIR";
             this.Check_RightY1_DIR.Size = new System.Drawing.Size(116, 22);
             this.Check_RightY1_DIR.TabIndex = 346;
@@ -10445,7 +10446,7 @@
             this.Check_RightY2_DIR.FalseTip = "负";
             this.Check_RightY2_DIR.IsCkecked = false;
             this.Check_RightY2_DIR.Location = new System.Drawing.Point(733, 343);
-            this.Check_RightY2_DIR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Check_RightY2_DIR.Margin = new System.Windows.Forms.Padding(5);
             this.Check_RightY2_DIR.Name = "Check_RightY2_DIR";
             this.Check_RightY2_DIR.Size = new System.Drawing.Size(116, 22);
             this.Check_RightY2_DIR.TabIndex = 347;
@@ -10456,7 +10457,7 @@
             this.check_WorkModel.FalseTip = "YY";
             this.check_WorkModel.IsCkecked = false;
             this.check_WorkModel.Location = new System.Drawing.Point(98, 471);
-            this.check_WorkModel.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.check_WorkModel.Margin = new System.Windows.Forms.Padding(5);
             this.check_WorkModel.Name = "check_WorkModel";
             this.check_WorkModel.Size = new System.Drawing.Size(116, 22);
             this.check_WorkModel.TabIndex = 348;
@@ -10466,9 +10467,9 @@
             // 
             this.tabPage29.Controls.Add(this.groupBoxEx75);
             this.tabPage29.Location = new System.Drawing.Point(4, 36);
-            this.tabPage29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage29.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage29.Name = "tabPage29";
-            this.tabPage29.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage29.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage29.Size = new System.Drawing.Size(1447, 771);
             this.tabPage29.TabIndex = 1;
             this.tabPage29.Text = "其他参数设置";
@@ -10489,9 +10490,9 @@
             this.groupBoxEx75.Controls.Add(this.panel9);
             this.groupBoxEx75.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBoxEx75.Location = new System.Drawing.Point(8, 8);
-            this.groupBoxEx75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxEx75.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxEx75.Name = "groupBoxEx75";
-            this.groupBoxEx75.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxEx75.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxEx75.Size = new System.Drawing.Size(1440, 750);
             this.groupBoxEx75.TabIndex = 32;
             this.groupBoxEx75.TabStop = false;
@@ -10563,9 +10564,9 @@
             this.groupBox6.Controls.Add(this.button4);
             this.groupBox6.Controls.Add(this.button5);
             this.groupBox6.Location = new System.Drawing.Point(861, 29);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(565, 441);
             this.groupBox6.TabIndex = 74;
             this.groupBox6.TabStop = false;
@@ -10574,7 +10575,7 @@
             // 
             this.button8.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button8.Location = new System.Drawing.Point(139, 191);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(123, 31);
             this.button8.TabIndex = 52;
@@ -10586,7 +10587,7 @@
             // 
             this.button6.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Location = new System.Drawing.Point(137, 282);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(123, 31);
             this.button6.TabIndex = 54;
@@ -10598,7 +10599,7 @@
             // 
             this.button7.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button7.Location = new System.Drawing.Point(137, 238);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(123, 31);
             this.button7.TabIndex = 53;
@@ -10625,7 +10626,7 @@
             // 
             this.btn_setrightbendpress.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_setrightbendpress.Location = new System.Drawing.Point(72, 130);
-            this.btn_setrightbendpress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_setrightbendpress.Margin = new System.Windows.Forms.Padding(4);
             this.btn_setrightbendpress.Name = "btn_setrightbendpress";
             this.btn_setrightbendpress.Size = new System.Drawing.Size(123, 31);
             this.btn_setrightbendpress.TabIndex = 35;
@@ -10637,7 +10638,7 @@
             // 
             this.txb_printpath.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txb_printpath.Location = new System.Drawing.Point(61, 392);
-            this.txb_printpath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txb_printpath.Margin = new System.Windows.Forms.Padding(4);
             this.txb_printpath.Name = "txb_printpath";
             this.txb_printpath.ReadOnly = true;
             this.txb_printpath.Size = new System.Drawing.Size(324, 27);
@@ -10663,7 +10664,7 @@
             // 
             this.btn_printpathselect.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_printpathselect.Location = new System.Drawing.Point(407, 392);
-            this.btn_printpathselect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_printpathselect.Margin = new System.Windows.Forms.Padding(4);
             this.btn_printpathselect.Name = "btn_printpathselect";
             this.btn_printpathselect.Size = new System.Drawing.Size(100, 29);
             this.btn_printpathselect.TabIndex = 62;
@@ -10716,7 +10717,7 @@
             // 
             this.btn_setmidbendpress.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_setmidbendpress.Location = new System.Drawing.Point(72, 81);
-            this.btn_setmidbendpress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_setmidbendpress.Margin = new System.Windows.Forms.Padding(4);
             this.btn_setmidbendpress.Name = "btn_setmidbendpress";
             this.btn_setmidbendpress.Size = new System.Drawing.Size(123, 31);
             this.btn_setmidbendpress.TabIndex = 34;
@@ -10743,7 +10744,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(12, 191);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(123, 31);
             this.button3.TabIndex = 48;
@@ -10770,7 +10771,7 @@
             // 
             this.btn_setleftbendpress.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_setleftbendpress.Location = new System.Drawing.Point(73, 29);
-            this.btn_setleftbendpress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_setleftbendpress.Margin = new System.Windows.Forms.Padding(4);
             this.btn_setleftbendpress.Name = "btn_setleftbendpress";
             this.btn_setleftbendpress.Size = new System.Drawing.Size(123, 31);
             this.btn_setleftbendpress.TabIndex = 33;
@@ -10782,7 +10783,7 @@
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button4.Location = new System.Drawing.Point(9, 238);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(123, 31);
             this.button4.TabIndex = 49;
@@ -10794,7 +10795,7 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button5.Location = new System.Drawing.Point(9, 282);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(123, 31);
             this.button5.TabIndex = 50;
@@ -10811,9 +10812,9 @@
             this.groupBox5.Controls.Add(this.Inp_LoadXGoHomeOffset);
             this.groupBox5.Controls.Add(this.groupBox1);
             this.groupBox5.Location = new System.Drawing.Point(8, 26);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(405, 328);
             this.groupBox5.TabIndex = 73;
             this.groupBox5.TabStop = false;
@@ -10900,9 +10901,9 @@
             this.groupBox1.Controls.Add(this.rbt_XY);
             this.groupBox1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.Location = new System.Drawing.Point(11, 8);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(381, 88);
             this.groupBox1.TabIndex = 41;
             this.groupBox1.TabStop = false;
@@ -10912,7 +10913,7 @@
             // 
             this.rbt_YX.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.rbt_YX.Location = new System.Drawing.Point(284, 25);
-            this.rbt_YX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbt_YX.Margin = new System.Windows.Forms.Padding(4);
             this.rbt_YX.Name = "rbt_YX";
             this.rbt_YX.Size = new System.Drawing.Size(112, 50);
             this.rbt_YX.TabIndex = 2;
@@ -10925,7 +10926,7 @@
             this.rbt_YY.Checked = true;
             this.rbt_YY.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.rbt_YY.Location = new System.Drawing.Point(151, 25);
-            this.rbt_YY.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbt_YY.Margin = new System.Windows.Forms.Padding(4);
             this.rbt_YY.Name = "rbt_YY";
             this.rbt_YY.Size = new System.Drawing.Size(112, 50);
             this.rbt_YY.TabIndex = 1;
@@ -10938,7 +10939,7 @@
             // 
             this.rbt_XY.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.rbt_XY.Location = new System.Drawing.Point(31, 25);
-            this.rbt_XY.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbt_XY.Margin = new System.Windows.Forms.Padding(4);
             this.rbt_XY.Name = "rbt_XY";
             this.rbt_XY.Size = new System.Drawing.Size(112, 50);
             this.rbt_XY.TabIndex = 0;
@@ -10957,9 +10958,9 @@
             this.groupBox4.Controls.Add(this.num_WeighValueScale);
             this.groupBox4.Controls.Add(this.num_AdjustAngle);
             this.groupBox4.Location = new System.Drawing.Point(421, 360);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(405, 350);
             this.groupBox4.TabIndex = 72;
             this.groupBox4.TabStop = false;
@@ -11093,9 +11094,9 @@
             this.groupBox3.Controls.Add(this.Inp_RightRotateMoveDelay);
             this.groupBox3.Controls.Add(this.Inp_MidRotateMoveDelay);
             this.groupBox3.Location = new System.Drawing.Point(8, 360);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(405, 362);
             this.groupBox3.TabIndex = 71;
             this.groupBox3.TabStop = false;
@@ -11201,9 +11202,9 @@
             this.groupBox2.Controls.Add(this.num_RobotBlowDelay);
             this.groupBox2.Controls.Add(this.num_DischargeBeltDelay);
             this.groupBox2.Location = new System.Drawing.Point(425, 25);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(405, 328);
             this.groupBox2.TabIndex = 70;
             this.groupBox2.TabStop = false;
@@ -11333,7 +11334,7 @@
             this.panel9.BackColor = System.Drawing.Color.White;
             this.panel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel9.Location = new System.Drawing.Point(1399, 25);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(28, 28);
             this.panel9.TabIndex = 60;
@@ -11341,7 +11342,7 @@
             // btn_savefunction
             // 
             this.btn_savefunction.Location = new System.Drawing.Point(504, 821);
-            this.btn_savefunction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_savefunction.Margin = new System.Windows.Forms.Padding(4);
             this.btn_savefunction.Name = "btn_savefunction";
             this.btn_savefunction.Size = new System.Drawing.Size(548, 44);
             this.btn_savefunction.TabIndex = 24;
@@ -11354,9 +11355,9 @@
             this.tabPage7.Controls.Add(this.button1);
             this.tabPage7.Controls.Add(this.cTabControl1);
             this.tabPage7.Location = new System.Drawing.Point(204, 4);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage7.Size = new System.Drawing.Size(1691, 880);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "IO参数";
@@ -11365,7 +11366,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(911, 20);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(279, 31);
             this.button1.TabIndex = 5;
@@ -11390,7 +11391,7 @@
             this.cTabControl1.HeadSelectedBorderColor = System.Drawing.Color.Transparent;
             this.cTabControl1.ItemSize = new System.Drawing.Size(60, 32);
             this.cTabControl1.Location = new System.Drawing.Point(7, 8);
-            this.cTabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cTabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.cTabControl1.Name = "cTabControl1";
             this.cTabControl1.SelectedIndex = 0;
             this.cTabControl1.Size = new System.Drawing.Size(1191, 862);
@@ -11400,9 +11401,9 @@
             // 
             this.tabPage1.Controls.Add(this.cardAIOSet1);
             this.tabPage1.Location = new System.Drawing.Point(4, 36);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1183, 822);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "控制卡A";
@@ -11414,7 +11415,7 @@
             this.cardAIOSet1.IsSaved = false;
             this.cardAIOSet1.IsValueChanged = true;
             this.cardAIOSet1.Location = new System.Drawing.Point(7, 2);
-            this.cardAIOSet1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardAIOSet1.Margin = new System.Windows.Forms.Padding(5);
             this.cardAIOSet1.Name = "cardAIOSet1";
             this.cardAIOSet1.Size = new System.Drawing.Size(1180, 812);
             this.cardAIOSet1.TabIndex = 0;
@@ -11423,9 +11424,9 @@
             // 
             this.tabPage2.Controls.Add(this.cardBIOSet1);
             this.tabPage2.Location = new System.Drawing.Point(4, 36);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1183, 822);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "控制卡B";
@@ -11437,7 +11438,7 @@
             this.cardBIOSet1.IsSaved = false;
             this.cardBIOSet1.IsValueChanged = true;
             this.cardBIOSet1.Location = new System.Drawing.Point(8, 5);
-            this.cardBIOSet1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardBIOSet1.Margin = new System.Windows.Forms.Padding(5);
             this.cardBIOSet1.Name = "cardBIOSet1";
             this.cardBIOSet1.Size = new System.Drawing.Size(1180, 812);
             this.cardBIOSet1.TabIndex = 0;
@@ -11446,7 +11447,7 @@
             // 
             this.tabPage3.Controls.Add(this.cardCIOSet1);
             this.tabPage3.Location = new System.Drawing.Point(4, 36);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1183, 822);
             this.tabPage3.TabIndex = 2;
@@ -11459,7 +11460,7 @@
             this.cardCIOSet1.IsSaved = false;
             this.cardCIOSet1.IsValueChanged = true;
             this.cardCIOSet1.Location = new System.Drawing.Point(5, 5);
-            this.cardCIOSet1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardCIOSet1.Margin = new System.Windows.Forms.Padding(5);
             this.cardCIOSet1.Name = "cardCIOSet1";
             this.cardCIOSet1.Size = new System.Drawing.Size(1180, 812);
             this.cardCIOSet1.TabIndex = 0;
@@ -11468,7 +11469,7 @@
             // 
             this.tabPage4.Controls.Add(this.cardDIOSet1);
             this.tabPage4.Location = new System.Drawing.Point(4, 36);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1183, 822);
             this.tabPage4.TabIndex = 3;
@@ -11481,7 +11482,7 @@
             this.cardDIOSet1.IsSaved = false;
             this.cardDIOSet1.IsValueChanged = true;
             this.cardDIOSet1.Location = new System.Drawing.Point(5, 5);
-            this.cardDIOSet1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardDIOSet1.Margin = new System.Windows.Forms.Padding(5);
             this.cardDIOSet1.Name = "cardDIOSet1";
             this.cardDIOSet1.Size = new System.Drawing.Size(1180, 812);
             this.cardDIOSet1.TabIndex = 0;
@@ -11490,9 +11491,9 @@
             // 
             this.tabPage5.Controls.Add(this.cardModulA1);
             this.tabPage5.Location = new System.Drawing.Point(4, 36);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage5.Size = new System.Drawing.Size(1183, 822);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "扩展模块A";
@@ -11504,7 +11505,7 @@
             this.cardModulA1.IsSaved = false;
             this.cardModulA1.IsValueChanged = true;
             this.cardModulA1.Location = new System.Drawing.Point(7, 6);
-            this.cardModulA1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardModulA1.Margin = new System.Windows.Forms.Padding(5);
             this.cardModulA1.Name = "cardModulA1";
             this.cardModulA1.Size = new System.Drawing.Size(1121, 801);
             this.cardModulA1.TabIndex = 0;
@@ -11513,9 +11514,9 @@
             // 
             this.tabPage6.Controls.Add(this.cardModulB1);
             this.tabPage6.Location = new System.Drawing.Point(4, 36);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage6.Size = new System.Drawing.Size(1183, 822);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "扩展模块B";
@@ -11527,7 +11528,7 @@
             this.cardModulB1.IsSaved = false;
             this.cardModulB1.IsValueChanged = true;
             this.cardModulB1.Location = new System.Drawing.Point(8, 6);
-            this.cardModulB1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardModulB1.Margin = new System.Windows.Forms.Padding(5);
             this.cardModulB1.Name = "cardModulB1";
             this.cardModulB1.Size = new System.Drawing.Size(1128, 798);
             this.cardModulB1.TabIndex = 0;
@@ -11536,9 +11537,9 @@
             // 
             this.tabPage9.Controls.Add(this.cardModulC1);
             this.tabPage9.Location = new System.Drawing.Point(4, 36);
-            this.tabPage9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage9.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage9.Size = new System.Drawing.Size(1183, 822);
             this.tabPage9.TabIndex = 6;
             this.tabPage9.Text = "扩展模块C";
@@ -11550,7 +11551,7 @@
             this.cardModulC1.IsSaved = false;
             this.cardModulC1.IsValueChanged = true;
             this.cardModulC1.Location = new System.Drawing.Point(7, 6);
-            this.cardModulC1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cardModulC1.Margin = new System.Windows.Forms.Padding(5);
             this.cardModulC1.Name = "cardModulC1";
             this.cardModulC1.Size = new System.Drawing.Size(1163, 798);
             this.cardModulC1.TabIndex = 0;
@@ -11559,7 +11560,7 @@
             // 
             this.tabPage14.Controls.Add(this.cTabControl3);
             this.tabPage14.Location = new System.Drawing.Point(204, 4);
-            this.tabPage14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage14.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage14.Name = "tabPage14";
             this.tabPage14.Size = new System.Drawing.Size(1691, 880);
             this.tabPage14.TabIndex = 2;
@@ -11580,7 +11581,7 @@
             this.cTabControl3.HeadSelectedBorderColor = System.Drawing.Color.Transparent;
             this.cTabControl3.ItemSize = new System.Drawing.Size(200, 32);
             this.cTabControl3.Location = new System.Drawing.Point(4, 4);
-            this.cTabControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cTabControl3.Margin = new System.Windows.Forms.Padding(4);
             this.cTabControl3.Multiline = true;
             this.cTabControl3.Name = "cTabControl3";
             this.cTabControl3.SelectedIndex = 0;
@@ -11591,9 +11592,9 @@
             // 
             this.tabPage15.Controls.Add(this.panel5);
             this.tabPage15.Location = new System.Drawing.Point(4, 36);
-            this.tabPage15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage15.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage15.Size = new System.Drawing.Size(1532, 814);
             this.tabPage15.TabIndex = 0;
             this.tabPage15.Text = "控制卡A";
@@ -11607,7 +11608,7 @@
             this.panel5.Controls.Add(this.axisMovePanelEx1);
             this.panel5.Controls.Add(this.axisCardPanelC3);
             this.panel5.Location = new System.Drawing.Point(8, 8);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1413, 831);
             this.panel5.TabIndex = 0;
@@ -11618,7 +11619,7 @@
             this.axisMovePanel1.Axis = null;
             this.axisMovePanel1.BackColor = System.Drawing.Color.White;
             this.axisMovePanel1.Location = new System.Drawing.Point(9, 658);
-            this.axisMovePanel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisMovePanel1.Margin = new System.Windows.Forms.Padding(5);
             this.axisMovePanel1.Name = "axisMovePanel1";
             this.axisMovePanel1.Size = new System.Drawing.Size(1373, 58);
             this.axisMovePanel1.TabIndex = 4;
@@ -11629,7 +11630,7 @@
             this.axisMovePanelEx3.Axis = null;
             this.axisMovePanelEx3.BackColor = System.Drawing.Color.White;
             this.axisMovePanelEx3.Location = new System.Drawing.Point(9, 602);
-            this.axisMovePanelEx3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisMovePanelEx3.Margin = new System.Windows.Forms.Padding(5);
             this.axisMovePanelEx3.Name = "axisMovePanelEx3";
             this.axisMovePanelEx3.Size = new System.Drawing.Size(1379, 68);
             this.axisMovePanelEx3.TabIndex = 3;
@@ -11640,7 +11641,7 @@
             this.axisMovePanelEx2.Axis = null;
             this.axisMovePanelEx2.BackColor = System.Drawing.Color.White;
             this.axisMovePanelEx2.Location = new System.Drawing.Point(9, 545);
-            this.axisMovePanelEx2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisMovePanelEx2.Margin = new System.Windows.Forms.Padding(5);
             this.axisMovePanelEx2.Name = "axisMovePanelEx2";
             this.axisMovePanelEx2.Size = new System.Drawing.Size(1379, 62);
             this.axisMovePanelEx2.TabIndex = 2;
@@ -11651,7 +11652,7 @@
             this.axisMovePanelEx1.Axis = null;
             this.axisMovePanelEx1.BackColor = System.Drawing.Color.White;
             this.axisMovePanelEx1.Location = new System.Drawing.Point(9, 486);
-            this.axisMovePanelEx1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisMovePanelEx1.Margin = new System.Windows.Forms.Padding(5);
             this.axisMovePanelEx1.Name = "axisMovePanelEx1";
             this.axisMovePanelEx1.Size = new System.Drawing.Size(1379, 58);
             this.axisMovePanelEx1.TabIndex = 1;
@@ -11662,7 +11663,7 @@
             this.axisCardPanelC3.IsSaved = false;
             this.axisCardPanelC3.IsValueChanged = true;
             this.axisCardPanelC3.Location = new System.Drawing.Point(4, 4);
-            this.axisCardPanelC3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisCardPanelC3.Margin = new System.Windows.Forms.Padding(5);
             this.axisCardPanelC3.Name = "axisCardPanelC3";
             this.axisCardPanelC3.Size = new System.Drawing.Size(1379, 518);
             this.axisCardPanelC3.TabIndex = 0;
@@ -11671,9 +11672,9 @@
             // 
             this.tabPage16.Controls.Add(this.panel6);
             this.tabPage16.Location = new System.Drawing.Point(4, 36);
-            this.tabPage16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage16.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage16.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage16.Size = new System.Drawing.Size(1532, 814);
             this.tabPage16.TabIndex = 1;
             this.tabPage16.Text = "控制卡B";
@@ -11685,7 +11686,7 @@
             this.panel6.Controls.Add(this.axisMovePanelEx5);
             this.panel6.Controls.Add(this.axisCardPanelC4);
             this.panel6.Location = new System.Drawing.Point(8, 8);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1415, 829);
             this.panel6.TabIndex = 1;
@@ -11696,7 +11697,7 @@
             this.axisMovePanelEx4.Axis = null;
             this.axisMovePanelEx4.BackColor = System.Drawing.Color.White;
             this.axisMovePanelEx4.Location = new System.Drawing.Point(4, 655);
-            this.axisMovePanelEx4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisMovePanelEx4.Margin = new System.Windows.Forms.Padding(5);
             this.axisMovePanelEx4.Name = "axisMovePanelEx4";
             this.axisMovePanelEx4.Size = new System.Drawing.Size(1401, 68);
             this.axisMovePanelEx4.TabIndex = 4;
@@ -11707,7 +11708,7 @@
             this.axisMovePanelEx5.Axis = null;
             this.axisMovePanelEx5.BackColor = System.Drawing.Color.White;
             this.axisMovePanelEx5.Location = new System.Drawing.Point(8, 492);
-            this.axisMovePanelEx5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisMovePanelEx5.Margin = new System.Windows.Forms.Padding(5);
             this.axisMovePanelEx5.Name = "axisMovePanelEx5";
             this.axisMovePanelEx5.Size = new System.Drawing.Size(1401, 62);
             this.axisMovePanelEx5.TabIndex = 3;
@@ -11718,7 +11719,7 @@
             this.axisCardPanelC4.IsSaved = false;
             this.axisCardPanelC4.IsValueChanged = true;
             this.axisCardPanelC4.Location = new System.Drawing.Point(4, 4);
-            this.axisCardPanelC4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisCardPanelC4.Margin = new System.Windows.Forms.Padding(5);
             this.axisCardPanelC4.Name = "axisCardPanelC4";
             this.axisCardPanelC4.Size = new System.Drawing.Size(1393, 529);
             this.axisCardPanelC4.TabIndex = 0;
@@ -11727,7 +11728,7 @@
             // 
             this.tabPage17.Controls.Add(this.panel7);
             this.tabPage17.Location = new System.Drawing.Point(4, 36);
-            this.tabPage17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage17.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage17.Name = "tabPage17";
             this.tabPage17.Size = new System.Drawing.Size(1532, 814);
             this.tabPage17.TabIndex = 2;
@@ -11738,7 +11739,7 @@
             // 
             this.panel7.Controls.Add(this.axisCardPanelC1);
             this.panel7.Location = new System.Drawing.Point(8, 8);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1464, 825);
             this.panel7.TabIndex = 1;
@@ -11749,7 +11750,7 @@
             this.axisCardPanelC1.IsSaved = false;
             this.axisCardPanelC1.IsValueChanged = true;
             this.axisCardPanelC1.Location = new System.Drawing.Point(4, 4);
-            this.axisCardPanelC1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisCardPanelC1.Margin = new System.Windows.Forms.Padding(5);
             this.axisCardPanelC1.Name = "axisCardPanelC1";
             this.axisCardPanelC1.Size = new System.Drawing.Size(1391, 608);
             this.axisCardPanelC1.TabIndex = 0;
@@ -11758,7 +11759,7 @@
             // 
             this.tabPage18.Controls.Add(this.panel8);
             this.tabPage18.Location = new System.Drawing.Point(4, 36);
-            this.tabPage18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage18.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage18.Name = "tabPage18";
             this.tabPage18.Size = new System.Drawing.Size(1532, 814);
             this.tabPage18.TabIndex = 3;
@@ -11769,7 +11770,7 @@
             // 
             this.panel8.Controls.Add(this.axisCardPanelC2);
             this.panel8.Location = new System.Drawing.Point(8, 8);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(1420, 774);
             this.panel8.TabIndex = 1;
@@ -11780,7 +11781,7 @@
             this.axisCardPanelC2.IsSaved = false;
             this.axisCardPanelC2.IsValueChanged = true;
             this.axisCardPanelC2.Location = new System.Drawing.Point(4, 4);
-            this.axisCardPanelC2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisCardPanelC2.Margin = new System.Windows.Forms.Padding(5);
             this.axisCardPanelC2.Name = "axisCardPanelC2";
             this.axisCardPanelC2.Size = new System.Drawing.Size(1397, 602);
             this.axisCardPanelC2.TabIndex = 0;
@@ -11790,9 +11791,9 @@
             this.tabPage8.Controls.Add(this.button2);
             this.tabPage8.Controls.Add(this.cTabControl2);
             this.tabPage8.Location = new System.Drawing.Point(204, 4);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage8.Size = new System.Drawing.Size(1691, 880);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "设备参数";
@@ -11801,7 +11802,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(1269, 20);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(279, 31);
             this.button2.TabIndex = 7;
@@ -11823,7 +11824,7 @@
             this.cTabControl2.HeadSelectedBorderColor = System.Drawing.Color.Transparent;
             this.cTabControl2.ItemSize = new System.Drawing.Size(60, 32);
             this.cTabControl2.Location = new System.Drawing.Point(7, 8);
-            this.cTabControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cTabControl2.Margin = new System.Windows.Forms.Padding(4);
             this.cTabControl2.Name = "cTabControl2";
             this.cTabControl2.SelectedIndex = 0;
             this.cTabControl2.Size = new System.Drawing.Size(1544, 862);
@@ -11833,9 +11834,9 @@
             // 
             this.tabPage10.Controls.Add(this.panel1);
             this.tabPage10.Location = new System.Drawing.Point(4, 36);
-            this.tabPage10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage10.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage10.Size = new System.Drawing.Size(1536, 822);
             this.tabPage10.TabIndex = 0;
             this.tabPage10.Text = "控制卡A";
@@ -11845,7 +11846,7 @@
             // 
             this.panel1.Controls.Add(this.axisSetPanel1);
             this.panel1.Location = new System.Drawing.Point(8, 8);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1517, 798);
             this.panel1.TabIndex = 1;
@@ -11855,7 +11856,7 @@
             this.axisSetPanel1.AutoSize = true;
             this.axisSetPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.axisSetPanel1.Location = new System.Drawing.Point(4, 4);
-            this.axisSetPanel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisSetPanel1.Margin = new System.Windows.Forms.Padding(5);
             this.axisSetPanel1.Name = "axisSetPanel1";
             this.axisSetPanel1.Size = new System.Drawing.Size(1995, 940);
             this.axisSetPanel1.TabIndex = 0;
@@ -11864,9 +11865,9 @@
             // 
             this.tabPage11.Controls.Add(this.panel2);
             this.tabPage11.Location = new System.Drawing.Point(4, 36);
-            this.tabPage11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage11.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage11.Size = new System.Drawing.Size(1536, 822);
             this.tabPage11.TabIndex = 1;
             this.tabPage11.Text = "控制卡B";
@@ -11876,7 +11877,7 @@
             // 
             this.panel2.Controls.Add(this.axisSetPanel2);
             this.panel2.Location = new System.Drawing.Point(8, 8);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1517, 798);
             this.panel2.TabIndex = 2;
@@ -11886,7 +11887,7 @@
             this.axisSetPanel2.AutoSize = true;
             this.axisSetPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.axisSetPanel2.Location = new System.Drawing.Point(4, 4);
-            this.axisSetPanel2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisSetPanel2.Margin = new System.Windows.Forms.Padding(5);
             this.axisSetPanel2.Name = "axisSetPanel2";
             this.axisSetPanel2.Size = new System.Drawing.Size(1995, 940);
             this.axisSetPanel2.TabIndex = 0;
@@ -11895,9 +11896,9 @@
             // 
             this.tabPage12.Controls.Add(this.panel3);
             this.tabPage12.Location = new System.Drawing.Point(4, 36);
-            this.tabPage12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage12.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage12.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage12.Size = new System.Drawing.Size(1536, 822);
             this.tabPage12.TabIndex = 2;
             this.tabPage12.Text = "控制卡C";
@@ -11907,7 +11908,7 @@
             // 
             this.panel3.Controls.Add(this.axisSetPanel3);
             this.panel3.Location = new System.Drawing.Point(8, 8);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1517, 798);
             this.panel3.TabIndex = 2;
@@ -11917,7 +11918,7 @@
             this.axisSetPanel3.AutoSize = true;
             this.axisSetPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.axisSetPanel3.Location = new System.Drawing.Point(4, 4);
-            this.axisSetPanel3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisSetPanel3.Margin = new System.Windows.Forms.Padding(5);
             this.axisSetPanel3.Name = "axisSetPanel3";
             this.axisSetPanel3.Size = new System.Drawing.Size(1995, 940);
             this.axisSetPanel3.TabIndex = 0;
@@ -11926,9 +11927,9 @@
             // 
             this.tabPage13.Controls.Add(this.panel4);
             this.tabPage13.Location = new System.Drawing.Point(4, 36);
-            this.tabPage13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage13.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage13.Size = new System.Drawing.Size(1536, 822);
             this.tabPage13.TabIndex = 3;
             this.tabPage13.Text = "控制卡D";
@@ -11938,7 +11939,7 @@
             // 
             this.panel4.Controls.Add(this.axisSetPanel4);
             this.panel4.Location = new System.Drawing.Point(8, 8);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1517, 798);
             this.panel4.TabIndex = 2;
@@ -11948,7 +11949,7 @@
             this.axisSetPanel4.AutoSize = true;
             this.axisSetPanel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.axisSetPanel4.Location = new System.Drawing.Point(4, 4);
-            this.axisSetPanel4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.axisSetPanel4.Margin = new System.Windows.Forms.Padding(5);
             this.axisSetPanel4.Name = "axisSetPanel4";
             this.axisSetPanel4.Size = new System.Drawing.Size(1995, 940);
             this.axisSetPanel4.TabIndex = 0;
@@ -11959,7 +11960,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1737, 938);
             this.Controls.Add(this.ctab_product);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmSet";
             this.Text = "6";
             this.Load += new System.EventHandler(this.FrmSet_Load);

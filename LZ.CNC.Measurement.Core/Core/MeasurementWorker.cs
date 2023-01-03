@@ -20685,7 +20685,7 @@ namespace LZ.CNC.Measurement.Core
                 }
                 OnFeedMsgArrived("等待物料");
                 //等上料翻转有料或流水线进料   //ZGH20220913增加与上游设备交互
-                while ((Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || (!Config.IsFeedCylinderEnable && !IsLoadBeltHaveSth)||(!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx) && !CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx)&& MeasurementContext.Config.IsControlUpStreamEnable))
+                while (/*(Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || (!Config.IsFeedCylinderEnable && !IsLoadBeltHaveSth)|| */(!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx) && !CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx)))
                 {
 
                     if (FeedStop)
