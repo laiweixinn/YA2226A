@@ -20723,28 +20723,28 @@ namespace LZ.CNC.Measurement.Core
                 Thread.Sleep(10);
             }
 
-            if (!Config.IsRunNull)
-            {
-                while (!Config.IsFeedCylinderEnable && _IsBeltMotorFirst)//流水线进料的话需要等待进料完成推料动作
-                {
-                    if (FeedStop)
-                    {
-                        _IsLoadWorking = false;
-                        return false;
-                    }
-                    if (_IsCycleStop)
-                    {
-                        FlagFeed = false;
-                        _IsLoadWorking = false;
-                        break;
-                    }
-                    if (_IsStop)
-                    {
-                        return false;
-                    }
-                    Thread.Sleep(10);
-                }
-            }
+            //if (!Config.IsRunNull)
+            //{
+            //    while (!Config.IsFeedCylinderEnable && _IsBeltMotorFirst)//流水线进料的话需要等待进料完成推料动作
+            //    {
+            //        if (FeedStop)
+            //        {
+            //            _IsLoadWorking = false;
+            //            return false;
+            //        }
+            //        if (_IsCycleStop)
+            //        {
+            //            FlagFeed = false;
+            //            _IsLoadWorking = false;
+            //            break;
+            //        }
+            //        if (_IsStop)
+            //        {
+            //            return false;
+            //        }
+            //        Thread.Sleep(10);
+            //    }
+            //}
             else
             {
                 while ((Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || (!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx) && !CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx)&&MeasurementContext.Config.IsControlUpStreamEnable))//流水线进料的话需要等待进料完成推料动作
