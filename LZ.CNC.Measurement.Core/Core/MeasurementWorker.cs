@@ -20638,35 +20638,35 @@ namespace LZ.CNC.Measurement.Core
             {
                 Stopwatch st = new Stopwatch();
                 st.Start();
-                if (!Config.IsFeedCylinderEnable)//不启用上料翻转机构
-                {
-                    while (GetIOOutStatus(Config.SuplyBeltIOOut))
-                    {
-                        if (FeedStop)
-                        {
-                            _IsLoadWorking = false;
-                            return false;
-                        }
-                        Thread.Sleep(30);
-                        if (FeedStop)
-                        {
-                            return false;
-                        }
-                        if (st.ElapsedMilliseconds > 60000)
-                        {
-                            b_timespan_flag = true;
-                        }
-                        WaitMilliSec(5);
-                        if (IsCycleStop)
-                        {
-                            break;
-                        }
-                        if (_IsStop)
-                        {
-                            return false;
-                        }
-                    }
-                }
+                //if (!Config.IsFeedCylinderEnable)//不启用上料翻转机构
+                //{
+                //    while (GetIOOutStatus(Config.SuplyBeltIOOut))
+                //    {
+                //        if (FeedStop)
+                //        {
+                //            _IsLoadWorking = false;
+                //            return false;
+                //        }
+                //        Thread.Sleep(30);
+                //        if (FeedStop)
+                //        {
+                //            return false;
+                //        }
+                //        if (st.ElapsedMilliseconds > 60000)
+                //        {
+                //            b_timespan_flag = true;
+                //        }
+                //        WaitMilliSec(5);
+                //        if (IsCycleStop)
+                //        {
+                //            break;
+                //        }
+                //        if (_IsStop)
+                //        {
+                //            return false;
+                //        }
+                //    }
+                //}
 
                 if (IsCycleStop)
                 {
