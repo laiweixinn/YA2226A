@@ -20747,7 +20747,7 @@ namespace LZ.CNC.Measurement.Core
             //}
             else
             {
-                while ((Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || (!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx) && !CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx)&&MeasurementContext.Config.IsControlUpStreamEnable))//流水线进料的话需要等待进料完成推料动作
+                while (/*(Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || */(!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx)) && (!CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx)))//流水线进料的话需要等待进料完成推料动作
                 {
                     if (FeedStop)
                     {
