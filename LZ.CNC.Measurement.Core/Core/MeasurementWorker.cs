@@ -10656,10 +10656,10 @@ namespace LZ.CNC.Measurement.Core
                 {
                     Task t13 = Task.Run(() => RunFeedRotateWork());
                 }
-                if (Config.IsControlUpStreamEnable)//ZGH20220913
-                {
-                    Task t12 = Task.Run(() => RunFeedLineWork());
-                }                
+                //if (Config.IsControlUpStreamEnable)//ZGH20220913
+                //{
+                //    Task t12 = Task.Run(() => RunFeedLineWork());
+                //}                
                 Task t1 = Task.Run(() => RunLoadWork());
                 Task t2 = Task.Run(() => RunLeftSMWork());
                 Task t3 = Task.Run(() => RunTransferWork());
@@ -12024,7 +12024,8 @@ namespace LZ.CNC.Measurement.Core
         {
             get
             {
-                return GetIOInStatus(Config.NGLineCylinderStatic);
+                return GetIOInStatus(Config.NGLineReachIOInEx);
+                //return GetIOInStatus(Config.NGLineCylinderStatic);
                 //return CanGetIOInStatus(Config.NGLineCylinderReach);
             }
         }
@@ -14338,6 +14339,7 @@ namespace LZ.CNC.Measurement.Core
                     {
                         if (IsStop)
                         {
+                            _IsLoadWorking = false;
                             return false;
                         }
                         Thread.Sleep(5);
@@ -20091,6 +20093,7 @@ namespace LZ.CNC.Measurement.Core
                                     OutputError("NG出料流水线未到安全位!");
                                 }
 
+
                                 while (!IsNGLineCylinderInside)
                                 {
                                     if (DischargeStop)
@@ -20106,6 +20109,56 @@ namespace LZ.CNC.Measurement.Core
                                     Thread.Sleep(5);
                                 }
 
+
+                                if (IsNGLineFull)
+                                {
+                                    OutputMessage("NG流水线满料");
+                                    //if (!AxisMoveTo(_Axis_Discharge_X, Recipe.DischargeXSafePos))
+                                    //{
+                                    //    _Axis_Discharge_X.StopSlowly();
+                                    //    _IsDischargeWorking = false;
+                                    //    return false;
+                                    //}
+
+                                    while (true)
+                                    {
+                                        if (DischargeStop)
+                                        {
+
+                                            b_checkchanel = EProductAtt.NG;
+                                            _IsDischargeWorking = false;
+                                            return false;
+                                        }
+
+                                        if (_IsStop)
+                                        {
+                                            return false;
+                                        }
+                                        if ((!IsNGLineFull) && (IsNGLineCylinderInside)) {
+                                            break;
+                                        }
+                                        Thread.Sleep(2);
+                                    }
+                                    while (!_IsAutoRun)
+                                    {
+                                        Thread.Sleep(50);
+                                        if (_IsStop)
+                                        {
+                                            return false;
+                                        }
+                                    }
+
+                                    if (!AxisMoveTo(_Axis_Discharge_X, Recipe.DischargeX_NG_PullPos, Config.DiscargeXNGUnLoadSpeed))
+                                    {
+                                        _Axis_Discharge_X.StopSlowly();
+                                        _IsDischargeWorking = false;
+                                        return false;
+                                    }
+                                }
+                              
+                       
+
+
                                 if (IsNGHaveSth)
                                 {
                                     OutputMessage("NG流水线有料");
@@ -20115,6 +20168,8 @@ namespace LZ.CNC.Measurement.Core
                                         _IsDischargeWorking = false;
                                         return false;
                                     }
+
+
 
                                     while (IsNGHaveSth || (!IsNGLineCylinderInside))
                                     {
@@ -20434,6 +20489,15 @@ namespace LZ.CNC.Measurement.Core
 
         public void StopworkStausChanged()
         {
+            //_IsleftsmWorking = false;
+            //_IsmidsmWorking = false;
+            //_IsrightsmWorking = false;
+            //_IsleftbendWorking = false;
+            //_IsmidbendWorking = false;
+            //_IsrightbendWorking = false;
+            //_IsLoadWorking = false;
+            //_IsTransferWorking = false;
+            //_IsDischargeWorking = false;
             while ((_IsleftsmWorking || _IsmidsmWorking || _IsrightsmWorking
                 || _IsleftbendWorking || _IsmidbendWorking || _IsrightbendWorking
                 || _IsLoadWorking || _IsTransferWorking || _IsDischargeWorking))
@@ -20679,18 +20743,18 @@ namespace LZ.CNC.Measurement.Core
                     return false;
                 }
 
-                if (!CheckAxisDone(_Axis_Load_Y))
-                {
-                    return false;
-                }
+                //if (!CheckAxisDone(_Axis_Load_Y))
+                //{
+                //    return false;
+                //}
                 OnFeedMsgArrived("等待物料");
+                OpenToUpstream_Safe();//ZGH20220913增加与上游设备交互
                 //等上料翻转有料或流水线进料   //ZGH20220913增加与上游设备交互
-                while (/*(Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || (!Config.IsFeedCylinderEnable && !IsLoadBeltHaveSth)|| */(!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx) && !CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx)))
+                while (/*(Config.IsFeedCylinderEnable && !_IsLoadMachineReady) || (!Config.IsFeedCylinderEnable && !IsLoadBeltHaveSth)|| */(!CanGetIOInStatus(Config.ReceiveUpstream_Safe_IOInEx) && (!CanGetIOInStatus(Config.ReceiveUpstream_Request_IOInEx))))
                 {
 
                     if (FeedStop)
                     {
-                        _IsLoadWorking = false;
                         return false;
                     }
 

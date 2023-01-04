@@ -1147,7 +1147,7 @@ namespace LZ.CNC.Measurement.Forms
             if (!_isFrPauseShowing)
             {
                 _isFrPauseShowing = true;
-                FrPause fr = new FrPause();
+                FrPause fr = new FrPause();               
                 fr.Show();
                 _isFrPauseShowing = false;
             }
@@ -1374,7 +1374,7 @@ namespace LZ.CNC.Measurement.Forms
             }
             else
             {
-                worker.IsStop = true;
+                //worker.IsStop = true;
                 worker.FeedStop = true;
                 worker.Tear1Stop = true;
                 worker.Tear2Stop = true;
@@ -1384,7 +1384,7 @@ namespace LZ.CNC.Measurement.Forms
                 worker.Bend3Stop = true;
                 worker.TransferStop = true;
                 worker.DischargeStop = true;
-                worker.ManualStop = true;
+                worker.ManualStop = true;               
                 worker.StopworkStausChanged();
             }
         }
@@ -1534,7 +1534,7 @@ namespace LZ.CNC.Measurement.Forms
           
             if (MeasurementContext.Config.IsControlUpStreamEnable)
             {
-                CtrlInputProductLine();
+               // CtrlInputProductLine();
             }
             else
             {
